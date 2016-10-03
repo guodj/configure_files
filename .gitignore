@@ -1,6 +1,7 @@
+*
 !.vimrc
 !.bashrc
-!.config/matplotlib
+!./.config/matplotlib
 !.muttrc
 !.mutt
 !.msmtprc
@@ -11,4 +12,3 @@
 !.backupblog.sh
 !.gitconfig
 !.gitignore
-*
