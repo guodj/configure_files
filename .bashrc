@@ -114,14 +114,14 @@ fi
 # added by Guo Dongjie
 alias vi='vim'
 alias cp='cp -v'
-export PATH="/home/gdj/work/sh/:$PATH"
+export PATH="~/work/sh/:$PATH"
 # default editor
 export EDITOR=nano
 # added by Anaconda3 4.0.0 installer
-export PATH="/home/gdj/anaconda3/bin:$PATH"
+export PATH="~/anaconda3/bin:$PATH"
 export PATH="/usr/local/MATLAB/R2015b/bin/:$PATH"
 # openmpi
-module load mpi/openmpi-x86_64
+# module load mpi/openmpi-x86_64
 
 
 # Added by Canopy installer on 2016-10-01
