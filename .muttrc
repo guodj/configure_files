@@ -1,0 +1,149 @@
+# 发送邮件
+set sendmail = "/usr/bin/msmtp"
+set from = "Dongjie Guo<gdj@mail.ustc.edu.cn>"
+set envelope_from = yes
+
+set charset = "utf-8"
+#set charset = "gb2312"
+set send_charset = "utf-8"
+#set send_charset="gb2312"
+set locale = "zh_CN.UTF-8"
+set content_type = "text/html\;charset=utf-8"
+#---------------------------------------------------#
+# 接收邮件
+# Specify  the  default  location  of  your mailboxes.
+set folder="~/.mail"
+
+# Default inbox
+set spoolfile="+inbox"
+
+# Where to save the read mail.
+set mbox="+read"
+
+# what type of mbox
+set mbox_type=Maildir
+
+# Save copy of outgoing email 
+set record="+sent" 
+
+# Save postponed messages here
+set postponed="+drafts"       
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - 
+# Settings for appearance etc. email          
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - 
+# added by Guo
+source ~/.mutt/address_book
+set alias_file=~/.mutt/address_book
+score "~N" +4
+score "~f leijh@ustc.edu.cn" +2
+set sort=threads
+set rfc2047_parameters=yes # solve the problem of gibberish in the attachment
+#------------------------------------------------------------------------------
+# ignore all headers in the message
+ignore *
+
+# but display following
+unignore from: subject to cc date user-agent
+
+# how to compose messages
+set editor="vim"
+
+set ascii_chars=no
+
+# Don't mark unread messages as old when mutt quits.
+unset mark_old
+
+# Don't put extra dashes before signature
+unset sig_dashes
+
+# What program to use for viewing messages
+ set pager="less"
+
+# Do not display prompt after exit from pager.
+unset prompt_after
+
+# Allow ANSI color codes in messages.
+set allow_ansi
+
+# Prompt for confirm when saving to non existing mbox
+set confirmcreate
+
+# Put headers in editor when composing messages
+set edit_headers
+
+# Do not ask for to, subject,... when replying.
+set fast_reply
+
+# Store attachments too when doing a Fcc
+set fcc_attach
+
+# If set, the user defined header fields are added to every new message.
+set hdrs
+
+# Do not quote full header on reply
+unset header
+
+# Show help in first line of the display
+set help
+
+# When set, mutt will skip the host name part of $hostname variable when
+# adding the domain part to addresses.
+set hidden_host
+
+# Don't jump to next message at end of message.
+set pager_stop
+
+# Ask for postponing when doing an Abort.
+set postpone=ask-yes
+
+# Ask whether you really want to print.
+set print=ask-yes
+
+# Ask for using postponed message.
+set recall=ask-yes
+
+# Ask if use or ignore Reply-To.
+set reply_to=ask-yes
+
+# ask for confirmation when deleting messages?
+set delete=ask-yes              
+
+# automatically start editor when forwarding.
+ set forward_edit=yes            
+
+# quote message, when replying
+set include=yes                 
+
+#
+# Show or suppress headers:
+# 
+ignore nntp-posting-host path old-return-path received >received references
+ignore content- errors-to in-reply-to mime-version
+ignore resent-message-id return-path xref path
+ignore x-keywords x-uid x-ftn-via x-ftn-domain x-ftn-seen-by x-ftn-path
+ignore x-gateway x-loop x-sender x-priority x-spam-level x-spam-checker-version
+ignore mbox-line x-pop3-rcpt x-mailing-list x400- dl-expansion-history
+ignore priority alternate-recipient x-zc-via 
+ignore x-received x-envelope-sender x-return-path x-authentication-warning
+ignore x-envelope-from x-envelope-to x-delivery-time
+ignore x-egroups-return list-unsubscribe list-archive list-help
+ignore list-post list-subscribe x-msmail-priority x-mimeole x-beenthere
+ignore X-eGroups-Remote-IP
+ignore Mailing-List
+ignore X-Virus-Status X-Virus-Scanned
+ignore X-Spam-Status
+
+
+color normal     default  default      # default 
+color indicator  black    yellow       # actual message
+color tree       yellow   default      # thread arrows
+color status     yellow   black        # status line
+color error      black    red          # errors
+color message    red      black        # info messages
+color index      red      default ~N   # New
+color index      yellow   default ~D   # Deleted
+
+auto_view text/richtext text/html text/x-sgml text/x-vcard text/x-sh \
+   text/x-csrc text/tex text/-xtex text/english \
+       application/x-tex application/x-dvi
