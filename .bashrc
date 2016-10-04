@@ -118,7 +118,7 @@ export PATH="~/work/sh/:$PATH"
 # default editor
 export EDITOR=nano
 # added by Anaconda3 4.0.0 installer
-export PATH="~/anaconda3/bin:$PATH"
+export PATH="$HOME/anaconda3/bin:$PATH"
 export PATH="/usr/local/MATLAB/R2015b/bin/:$PATH"
 # openmpi
 # module load mpi/openmpi-x86_64
