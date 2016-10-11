@@ -35,12 +35,12 @@
 # You can also deploy your own backend outside of matplotlib by
 # referring to the module name (which must be in the PYTHONPATH) as
 # 'module://my_backend'.
-backend      : Qt4Agg  # module PyQt4 not found, change 4 to 5, D., Guo 
+backend      : Qt5Agg
 
 # If you are using the Qt4Agg backend, you can choose here
 # to use the PyQt4 bindings or the newer PySide bindings to
 # the underlying Qt4 toolkit.
-backend.qt4 : PyQt4        # PyQt4 | PySide
+backend.qt5 : PyQt5        # PyQt4 | PySide
 
 # Note that this can be overridden by the environment variable
 # QT_API used by Enthought Tool Suite (ETS); valid values are
@@ -141,6 +141,7 @@ lines.markeredgewidth  : 0     # the line width around the marker symbol
 # 12pt is the standard value.
 #
 #font.family         : sans-serif
+font.family         : Freesans
 #font.style          : normal
 #font.variant        : normal
 #font.weight         : medium
@@ -234,6 +235,7 @@ font.size           : 14.0
                        # Can be any of the LaTeX font names, including
                        # the special name "regular" for the same font
                        # used in regular text.
+mathtext.default : regular 
 
 ### AXES
 # default face and edge color, default tick sizes,
@@ -368,7 +370,7 @@ legend.frameon       : False   # whether or not to draw a frame around legend
 #image.aspect : equal             # equal | auto | a number
 #image.interpolation  : bilinear  # see help(imshow) for options
 #image.cmap   : jet               # gray | jet etc...
-image.cmap   : viridis               # gray | jet etc...
+image.cmap   : bwr               # gray | jet etc...
 #image.lut    : 256               # the size of the colormap lookup table
 #image.origin : upper             # lower | upper
 #image.resample  : False
