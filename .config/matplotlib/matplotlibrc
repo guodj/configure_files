@@ -141,7 +141,7 @@ lines.markeredgewidth  : 0     # the line width around the marker symbol
 # 12pt is the standard value.
 #
 #font.family         : sans-serif
-font.family         : Freesans
+font.family         : serif
 #font.style          : normal
 #font.variant        : normal
 #font.weight         : medium
