@@ -23,7 +23,7 @@ Plugin 'ervandew/supertab'
 " Plugin 'Valloric/YouCompleteMe'
 
 " Syntax checking hacks for vim
-Plugin 'scrooloose/syntastic'
+" Plugin 'scrooloose/syntastic'
 
 " A tree explorer plugin for vim
 Plugin 'scrooloose/nerdtree'
@@ -176,8 +176,8 @@ set tm=500
 syntax enable
 syntax on
 
-colorscheme  desert
-set background=dark
+colorscheme  solarized
+set background=light
 
 " Set extra options when running in GUI mode
 if has("gui_running")
