@@ -177,7 +177,7 @@ syntax enable
 syntax on
 
 colorscheme  solarized
-set background=light
+set background=dark
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -451,6 +451,9 @@ set nu
 set fileencodings=ucs-bom,utf-8,gb2312
 set showcmd
 inoremap <C-u> <esc>gUiwea
+set t_ZH=[3m
+set t_ZR=[23m
+highlight Comment cterm=italic
 "highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 "match OverLength /\%81v.\+/
 
@@ -472,14 +475,14 @@ nmap <F3> :TagbarToggle<CR>
 "autocmd vimenter * Tagbar 
 "--------------------------------------------------------------------------------
 " For syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+" set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
+" 
+" let g:syntastic_always_populate_loc_list = 1
+" let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_wq = 0
 "--------------------------------------------------------------------------------
 " For nerdtree
 map <silent><F8> :NERDTreeToggle<CR>
