@@ -122,9 +122,3 @@ export PATH="$HOME/anaconda3/bin:$PATH"
 export PATH="/usr/local/MATLAB/R2015b/bin/:$PATH"
 # openmpi
 # module load mpi/openmpi-x86_64
-
-
-# Added by Canopy installer on 2016-10-01
-# VIRTUAL_ENV_DISABLE_PROMPT can be set to '' to make the bash prompt show that Canopy is active, otherwise 1
-# alias activate_canopy="source '/home/gdj/Enthought/Canopy_64bit/User/bin/activate'"
-# VIRTUAL_ENV_DISABLE_PROMPT=1 source '/home/gdj/Enthought/Canopy_64bit/User/bin/activate'

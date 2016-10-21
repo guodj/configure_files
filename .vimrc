@@ -451,6 +451,8 @@ set nu
 set fileencodings=ucs-bom,utf-8,gb2312
 set showcmd
 inoremap <C-u> <esc>gUiwea
+set t_ZH=[3m
+set t_ZR=[23m
 highlight Comment cterm=italic
 "highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 "match OverLength /\%81v.\+/
