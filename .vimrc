@@ -176,8 +176,9 @@ set tm=500
 syntax enable
 syntax on
 
-colorscheme  solarized
-set background=dark
+"colorscheme  solarized
+"set background=dark
+colorscheme desert
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -445,7 +446,7 @@ function! <SID>BufcloseCloseIt()
    endif
 endfunction
 
-"--------------------------------------------------------------------------------
+"-------------------------------------------------------------------------------
 " By Dongjie, USTC, Sun Sep 18 04:51:00 CST 2016
 set nu
 set fileencodings=ucs-bom,utf-8,gb2312
@@ -453,14 +454,14 @@ set showcmd
 inoremap <C-u> <esc>gUiwea
 set t_ZH=[3m
 set t_ZR=[23m
-highlight Comment cterm=italic
-"highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-"match OverLength /\%81v.\+/
+"highlight Comment cterm=italic
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
 
-"--------------------------------------------------------------------------------
+"-------------------------------------------------------------------------------
 " For matlab
 source $VIMRUNTIME/macros/matchit.vim
-"--------------------------------------------------------------------------------
+"-------------------------------------------------------------------------------
 "For taglist or tagbar
 " map <silent> <F3> :TlistToggle<CR>
 " let Tlist_Ctags_Cmd='ctags'
@@ -473,7 +474,7 @@ source $VIMRUNTIME/macros/matchit.vim
 " set tags=tags;
 nmap <F3> :TagbarToggle<CR>
 "autocmd vimenter * Tagbar 
-"--------------------------------------------------------------------------------
+"-------------------------------------------------------------------------------
 " For syntastic
 " set statusline+=%#warningmsg#
 " set statusline+=%{SyntasticStatuslineFlag()}
@@ -483,18 +484,18 @@ nmap <F3> :TagbarToggle<CR>
 " let g:syntastic_auto_loc_list = 1
 " let g:syntastic_check_on_open = 1
 " let g:syntastic_check_on_wq = 0
-"--------------------------------------------------------------------------------
+"-------------------------------------------------------------------------------
 " For nerdtree
 map <silent><F8> :NERDTreeToggle<CR>
 "autocmd vimenter * NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-"--------------------------------------------------------------------------------
+"-------------------------------------------------------------------------------
 " For tabline
 nnoremap [b :bp<CR>
 nnoremap ]b :bn<CR>
 " hi TabLineFill ctermfg=Black ctermbg=DarkGreen
 " hi TabLine ctermfg=Blue ctermbg=Black
 " hi TabLineSel ctermfg=Red ctermbg=Black
-"--------------------------------------------------------------------------------
+"-------------------------------------------------------------------------------
 " For airline
 let g:airline#extensions#tabline#enabled = 1
