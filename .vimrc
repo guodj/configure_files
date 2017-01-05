@@ -176,9 +176,8 @@ set tm=500
 syntax enable
 syntax on
 
-"colorscheme  solarized
-"set background=dark
-colorscheme desert
+set background=dark
+colorscheme  solarized
 
 " Set extra options when running in GUI mode
 if has("gui_running")

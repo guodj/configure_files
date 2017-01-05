@@ -124,6 +124,7 @@ fi
 
 alias vi='vim'
 alias cp='cp -v'
+eval `dircolors $HOME/.dir_colors/dircolors`
 
 # For shell script
 export PATH="$HOME/work/sh/:$PATH"
@@ -138,3 +139,11 @@ export PATH="/usr/lib64/openmpi/bin/:$PATH"
 export PYTHONPATH="$HOME/work/python/:$PYTHONPATH"
 # For my datapath
 export DATAPATH="$HOME/data/"
+
+
+
+
+
+# For IDL
+export IDL_EXTRAS=$HOME/work/idl/extras/
+export IDL_STARTUP=$HOME/work/idl/ridley/startup
