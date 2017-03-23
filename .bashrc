@@ -126,8 +126,8 @@ alias vi='vim'
 alias cp='cp -v'
 eval `dircolors $HOME/.dir_colors/dircolors`
 
-# For shell script
-export PATH="$HOME/work/sh/:$PATH"
+# For script
+export PATH="$HOME/work/bin/:$PATH"
 # For python
 export PATH="$HOME/anaconda3/bin:$PATH"
 # For matlab
