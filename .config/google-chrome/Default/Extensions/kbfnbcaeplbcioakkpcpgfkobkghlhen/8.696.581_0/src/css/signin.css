@@ -1,0 +1,126 @@
+._4469ce-signin {
+  line-height: initial;
+  white-space: normal;
+  text-align: left;
+  float: initial;
+  clear: none;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: transparent;
+  font-family: 'Lato';
+  font-size: 16px !important;
+  color: #000 !important;
+  box-sizing: border-box !important;
+}
+
+._4469ce-signin div,
+._4469ce-signin span,
+._4469ce-signin h1,
+._4469ce-signin h2,
+._4469ce-signin h3,
+._4469ce-signin h4,
+._4469ce-signin h5,
+._4469ce-signin h6,
+._4469ce-signin p,
+._4469ce-signin a,
+._4469ce-signin img,
+._4469ce-signin b,
+._4469ce-signin u,
+._4469ce-signin i,
+._4469ce-signin ul,
+._4469ce-signin li,
+._4469ce-signin form,
+._4469ce-signin label,
+._4469ce-signin canvas,
+._4469ce-signin footer,
+._4469ce-signin header,
+._4469ce-signin nav,
+._4469ce-signin section {
+  line-height: initial;
+  white-space: normal;
+  text-align: left;
+  float: initial;
+  clear: none;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+._4469ce-signin span {
+  display: inline;
+}
+
+._4469ce-signin ._4469ce-content {
+  padding: 30px 50px 0 !important;
+  text-align: center !important;
+}
+
+._4469ce-signin ._4469ce-head {
+  font-weight: 200 !important;
+  margin-bottom: 13px !important;
+  font-size: 28px !important;
+  text-align: center !important;
+}
+
+._4469ce-signin ._4469ce-descr {
+  margin-bottom: 20px !important;
+  text-align: center !important;
+  color: rgba(0,0,0,0.67);
+}
+
+._4469ce-signin ._4469ce-auth_button {
+  text-align: center !important;
+  color: #fff !important;
+  width: 232px;
+  font-size: 20px !important;
+  margin-bottom: 25px !important;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding-top: 8px !important;
+  margin-top: 10px !important;
+  padding-bottom: 10px !important;
+  border: none;
+  line-height: 29px !important;
+  display: inline-block;
+  font-weight: 500 !important;
+  border-radius: 100px;
+  background: linear-gradient(to bottom, #e04f42 0%, #d0352c 100%);
+}
+
+._4469ce-signin ._4469ce-auth_button:hover {
+  box-shadow: 0 -1px 0 #de210d inset, 0 1px 0 #ea6756 inset;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #ea6756 0%, #d0352c 100%);
+}
+
+._4469ce-signin ._4469ce-footer {
+  left: 0;
+  margin-top: 27px !important;
+  height: 60px;
+  width: 100%;
+  background: #444;
+  box-sizing: border-box;
+  padding: 21px 35px 0 !important;
+  text-align: right !important;
+}
+
+._4469ce-signin ._4469ce-login_text {
+  color: #cdcdcd;
+  text-align: right !important;
+}
+
+._4469ce-signin ._4469ce-signin_link {
+  color: #cdcdcd !important;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 400 !important;
+}
+
+._4469ce-signin ._4469ce-signin_link:hover {
+  color: #fff !important;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="media_list" mtime="1477330379" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>theora*90000*0*SIP*1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>h261*90000*0*H.323 SIP*1</stringvalue>
+		</li>
+	</entry>
+</gconf>

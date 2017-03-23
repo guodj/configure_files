@@ -1,0 +1,20 @@
+<md-dialog aria-label="Blacklisted sites">
+  <form>
+  <md-dialog-content>
+    <h2 class="md-title">Exclusion List</h2>
+    <div>
+      <div><small>Please copy &amp; paste URLs of sites you would like to exclude, one per line:</small></div>
+      <textarea placeholder="" ng-model="blacklist"></textarea>
+    </div>
+  </md-dialog-content>
+  <div class="md-actions" layout="row">
+    <span flex></span>
+    <md-button ng-click="save()" class="md-primary md-raised">
+      Save
+    </md-button>
+    <md-button ng-click="cancel()" class="md-raised">
+      Cancel
+    </md-button>
+  </div>
+  </form>
+</md-dialog>

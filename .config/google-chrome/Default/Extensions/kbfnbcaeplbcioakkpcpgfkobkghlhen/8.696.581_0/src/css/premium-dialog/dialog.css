@@ -1,0 +1,157 @@
+._2ba6ba-wrapper {
+  background: rgba(0,0,0,0.8);
+  overflow-y: auto;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999999999999;
+  font-family: Lato !important;
+  -webkit-animation: gr__premium_dialog_appear 0.2s ease-in forwards;
+  animation: gr__premium_dialog_appear 0.2s ease-in forwards;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-sizing: border-box;
+}
+
+._2ba6ba-wrapper * {
+  box-sizing: border-box;
+}
+
+._2ba6ba-wrapper._2ba6ba-hide {
+  -webkit-animation: gr__premium_dialog_disappear 0.2s ease-in 0.2s forwards;
+  animation: gr__premium_dialog_disappear 0.2s ease-in 0.2s forwards;
+}
+
+._2ba6ba-wrapper._2ba6ba-hide ._2ba6ba-content {
+  -webkit-animation: gr__premium_dialog_content_disappear 0.2s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+  animation: gr__premium_dialog_content_disappear 0.2s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+}
+
+@-webkit-keyframes gr__premium_dialog_appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes gr__premium_dialog_appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes gr__premium_dialog_disappear {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes gr__premium_dialog_disappear {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes gr__premium_dialog_content_appear {
+  from {
+    -webkit-transform: translateX(-50%) scale(0.7);
+    transform: translateX(-50%) scale(0.7);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform: translateX(-50%) scale(1);
+    transform: translateX(-50%) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes gr__premium_dialog_content_appear {
+  from {
+    -webkit-transform: translateX(-50%) scale(0.7);
+    transform: translateX(-50%) scale(0.7);
+    opacity: 0;
+  }
+
+  to {
+    -webkit-transform: translateX(-50%) scale(1);
+    transform: translateX(-50%) scale(1);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes gr__premium_dialog_content_disappear {
+  from {
+    -webkit-transform: translateX(-50%) scale(1);
+    transform: translateX(-50%) scale(1);
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: translateX(-50%) scale(0.7);
+    transform: translateX(-50%) scale(0.7);
+    opacity: 0;
+  }
+}
+
+@keyframes gr__premium_dialog_content_disappear {
+  from {
+    -webkit-transform: translateX(-50%) scale(1);
+    transform: translateX(-50%) scale(1);
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: translateX(-50%) scale(0.7);
+    transform: translateX(-50%) scale(0.7);
+    opacity: 0;
+  }
+}
+
+._2ba6ba-content {
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.5);
+  border-radius: 5px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  margin-top: 0;
+  width: 900px;
+  opacity: 0;
+  -webkit-animation: gr__premium_dialog_content_appear cubic-bezier(0.77, 0, 0.175, 1) 0.3s forwards;
+  animation: gr__premium_dialog_content_appear cubic-bezier(0.77, 0, 0.175, 1) 0.3s forwards;
+}
+
+._2ba6ba-features,
+._2ba6ba-quotes {
+  display: inline-block;
+  vertical-align: top;
+}
+
+._2ba6ba-features {
+  width: 650px;
+}
+
+._2ba6ba-quotes {
+  width: 250px;
+}

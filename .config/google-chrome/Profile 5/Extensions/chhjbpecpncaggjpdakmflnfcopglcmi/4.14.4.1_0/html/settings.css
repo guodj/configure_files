@@ -1,0 +1,66 @@
+body {
+	background-color: #EDEFF5;
+	font-size: 16px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 20px;    
+	font-weight: 400;
+}
+
+md-content {
+	background-color: #EDEFF5;
+}
+
+md-card {
+	background-color: white;
+	width: 500px;
+	margin: 50px;
+	padding: 20px;
+	text-align: left;
+}
+md-checkbox {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+md-checkbox .md-icon {
+	border-color: #5A84CC;
+}
+
+md-checkbox.md-checked .md-icon {
+	background-color: #5A84CC;
+}
+
+textarea {
+	width: 500px;
+	height: 125px;
+}
+
+hr {
+	width: 90%;
+	border-color: #EEE;
+	border-style: solid;
+	border-width: 1px 0 0 0;
+}
+
+a {
+	text-decoration: underline;
+}
+
+.md-button.gmail {
+	border: 2px solid #F75751;
+	border-radius: 6px !important;
+	text-transform: none;
+	padding: 0 16px;
+	font-size: 0.95em;
+}
+
+.ng-hide:not(.ng-hide-animate) {
+  /* this is just another form of hiding an element */
+  display: block!important;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}

@@ -1,0 +1,24 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh pool-edit gnome-boxes
+or other application using the libvirt API.
+-->
+
+<pool type='dir'>
+  <name>gnome-boxes</name>
+  <uuid>23998f21-c63a-4817-9256-e9c200a20ffc</uuid>
+  <capacity unit='bytes'>0</capacity>
+  <allocation unit='bytes'>0</allocation>
+  <available unit='bytes'>0</available>
+  <source>
+  </source>
+  <target>
+    <path>/home/guod/.local/share/gnome-boxes/images</path>
+    <permissions>
+      <mode>0744</mode>
+      <owner>114125437</owner>
+      <group>114125437</group>
+    </permissions>
+  </target>
+</pool>

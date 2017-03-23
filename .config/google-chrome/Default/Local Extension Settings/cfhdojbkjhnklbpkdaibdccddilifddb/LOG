@@ -1,0 +1,24 @@
+2016/10/19-13:46:12.409 3331 Reusing MANIFEST /home/guod/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2016/10/19-13:46:12.409 3331 Recovering log #190
+2016/10/19-13:46:12.409 3331 Reusing old log /home/guod/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000190.log 
+2016/10/19-13:47:12.987 3998 Level-0 table #194: started
+2016/10/19-13:47:13.022 3998 Level-0 table #194: 1863119 bytes OK
+2016/10/19-13:47:13.029 3998 Delete type=0 #190
+2016/10/19-13:47:15.752 3998 Level-0 table #196: started
+2016/10/19-13:47:15.786 3998 Level-0 table #196: 1863301 bytes OK
+2016/10/19-13:47:15.798 3998 Delete type=0 #193
+2016/10/19-13:47:16.339 3998 Level-0 table #198: started
+2016/10/19-13:47:16.371 3998 Level-0 table #198: 1985837 bytes OK
+2016/10/19-13:47:16.377 3998 Delete type=0 #195
+2016/10/19-13:51:43.507 3998 Level-0 table #200: started
+2016/10/19-13:51:43.543 3998 Level-0 table #200: 1985837 bytes OK
+2016/10/19-13:51:43.549 3998 Delete type=0 #197
+2016/10/19-13:51:43.550 3998 Compacting 4@0 + 1@1 files
+2016/10/19-13:51:43.630 3998 Generated table #201@0: 3 keys, 1986139 bytes
+2016/10/19-13:51:43.630 3998 Compacted 4@0 + 1@1 files => 1986139 bytes
+2016/10/19-13:51:43.636 3998 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/10/19-13:51:43.636 3998 Delete type=2 #191
+2016/10/19-13:51:43.636 3998 Delete type=2 #194
+2016/10/19-13:51:43.637 3998 Delete type=2 #196
+2016/10/19-13:51:43.637 3998 Delete type=2 #198
+2016/10/19-13:51:43.637 3998 Delete type=2 #200

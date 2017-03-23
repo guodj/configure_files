@@ -1,0 +1,587 @@
+2016/10/05 17:57:03.974   666 0xfe928fa8 G0   Logger started.
+2016/10/05 13:57:03.980   666 0xfe928fa8 G0+  Thread: IOServiceWorker_0_2
+2016/10/05 13:57:03.980   666 0xfe928fa8 G0+  Thread: IOServiceWorker_0_0
+2016/10/05 13:57:03.981   666 0xfe928fa8 G0   Timezone: 4
+2016/10/05 13:57:03.981   666 0xfe928fa8 G0+  Thread: IOServiceWorker_0_1
+2016/10/05 13:57:03.985   666 0xfe928fa8 G0+  Thread: IOServiceWorker_0_3
+2016/10/05 13:57:03.990   666 0xfe928fa8 G0   Incoming Chrome Command: 'systemInfos'
+2016/10/05 13:57:04.014   666 0xfe928fa8 G0   InterProcessBase::SecureNetwork created
+2016/10/05 13:57:04.017   666 0xfe928fa8 G0+  Thread: TimedCallback
+2016/10/05 13:57:04.017   666 0xfef4cc00 G0+  LoginAccount::TryAutoLogin() called
+2016/10/05 13:57:04.017   666 0xfef4cc00 G0   OS = linux
+2016/10/05 13:57:04.017   666 0xfef4cc00 G0   PlatformArch = x86-64
+2016/10/05 13:57:04.018   666 0xfef4cc00 G0   NaclArch = x86-64
+2016/10/05 13:57:04.018   666 0xfef4cc00 G0   TotalMemory = 7865MB
+2016/10/05 13:57:04.018   666 0xfef4cc00 G0   AvailableMemory = 3101MB
+2016/10/05 13:57:04.018   666 0xfef4cc00 G0   NumOfProcessors = 4
+2016/10/05 13:57:04.018   666 0xfef4cc00 G0   CpuArch = x86_64
+2016/10/05 13:57:04.018   666 0xfef4cc00 G0   ModelName = Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz
+2016/10/05 13:57:04.021   666 0xfef4cc00 G0   UpdateOnlineState newOnlineValue 0
+2016/10/05 13:57:04.184   666 0xfef4cc00 G0   Generating new RSA private/public key pair
+
+
+
+Start:              2016/10/05 13:57:04.279
+Version:            11.0.55500 
+ID:                 0
+Loglevel:           Verbose (70)
+License:            0
+Server:             master4.teamviewer.com
+IC:                 1022086039
+CPU:                Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz
+OS:                 ChromeOS (64-bit)
+IP:                 255.255.255.255
+MID:                c0a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf
+MIDv:               0
+Proxy-Settings:     Type=1 IP= User=
+
+2016/10/05 13:57:04.300   666 0xfef4cc00 G0+  IsValidOEMID: oemid:"" length:"0"
+2016/10/05 13:57:04.300   666 0xfef4cc00 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting VersionMajor to 11
+2016/10/05 13:57:04.300   666 0xfef4cc00 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting VersionMinor to 0
+2016/10/05 13:57:04.300   666 0xfef4cc00 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting VersionBuildnumber to 55500
+2016/10/05 13:57:04.301   666 0xfef4cc00 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting VersionExtra to ""
+2016/10/05 13:57:04.301   666 0xfef4cc00 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting Environment to 0
+2016/10/05 13:57:04.301   666 0xfef4cc00 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting OEMID to ""
+2016/10/05 13:57:04.301   666 0xfef4cc00 G0   UpdateOnlineState newOnlineValue 0
+2016/10/05 13:57:04.302   666 0xfef4cc00 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting TVEdition to 1
+2016/10/05 13:57:04.302   666 0xfef4cc00 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting Country to ""
+2016/10/05 13:57:04.302   666 0xfef4cc00 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting OperatingSystem to 9
+2016/10/05 13:57:04.302   666 0xfef4cc00 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting Platform to "pnacl"
+2016/10/05 13:57:04.302   666 0xfef4cc00 G0   Starting intra process connection
+2016/10/05 13:57:04.303   666 0xfef4d210 G0+  CInterProcessNetwork::Received_Control_InitIPC: Connecting process: 666
+2016/10/05 13:57:04.305   666 0xfef4bfe0 G0   UpdateState teamViewerID=0 isLoggedIn=0
+2016/10/05 13:57:04.305   666 0xfef4bfe0 G0+  Send Status to GUI: {"command":"status","isLoggedIn":false,"teamviewerId":0}
+
+2016/10/05 13:57:04.306   666 0xfef4d210 G0+  CInterProcessNetwork::Received_Control_InitIPC: Send InitIPC_Response to process: 666
+2016/10/05 13:57:04.306   666 0xfef4d210 G0   UpdateOnlineState newOnlineValue 1
+2016/10/05 13:57:04.306   666 0xfe693448 G0+  Thread: OnlineInternal_Network
+2016/10/05 13:57:04.307   666 0xfe693448 G0   TeamViewer is going online!
+2016/10/05 13:57:04.307   666 0xfef4d210 G0   CKeepAliveClientClient::DoReconnectInternal: doing nothing, state = 0
+2016/10/05 13:57:04.307   666 0xfef4d210 G0   Activating Router carrier
+2016/10/05 13:57:04.308   666 0xfef4d210 G0+  CProcessCommandHandlerPing[1]::CreatePinger(): ping3.teamviewer.com:5938, Connection 1
+2016/10/05 13:57:04.309   666 0xfef4bfe0 G0   Received Control_InitIPC_Response processtype=1
+2016/10/05 13:57:04.309   666 0xfef4bfe0 G0   Received Control_InitIPC_Response runningProcesses=3
+2016/10/05 13:57:04.309   666 0xfef4bfe0 G0   Control_InitIPC_Response: all processes 3 completely initialized
+2016/10/05 13:57:04.309   666 0xfef4bfe0 G0+  InterProcess: Sending 1 queued command(s).
+2016/10/05 13:57:04.309   666 0xfef4bfe0 G0+  ConfigurationHub::HandleIPCConnect(): renew feature registrations
+2016/10/05 13:57:04.310   666 0xfef4c5f0 G0+  ConfigurationControllerImpl::TriggerRequest(): Not ready for requests, state is 0
+2016/10/05 13:57:04.311   666 0xfef4c5f0 G0+  ConfigurationControllerImpl::TriggerRequest(): Not ready for requests, state is 0
+2016/10/05 13:57:04.469   666 0xfef4bfe0 G0+  CTcpConnectionBase[1]::HandleConnect(): Connect to ping3.teamviewer.com:5938, IP: 37.252.230.28 was successful.
+2016/10/05 13:57:04.627   666 0xfef4c5f0 G0   NetWatchdog: Ping successful! Port: 5938
+2016/10/05 13:57:04.628   666 0xfef4c5f0 G0   NetWatchdog: Internet is now connected
+2016/10/05 13:57:04.628   666 0xfef4c5f0 G0   CKeepAliveClientClient::HandlePing(): success
+2016/10/05 13:57:04.657   666 0xfef4c5f0 G0   Activating Router carrier
+2016/10/05 13:57:04.657   666 0xfef4c5f0 G0   CProcessCommandHandlerMasterConnect[2]::CreateMasterConnect(): master4.teamviewer.com:5938, Connection 2, proxy=''
+2016/10/05 13:57:04.658   666 0xfef4d210 G0+  CTcpConnectionBase[1]::HandleReadError(): Socket gracefully closed. ClientID: 0
+2016/10/05 13:57:04.784   666 0xfef4c5f0 G0+  CTcpConnectionBase[2]::HandleConnect(): Connect to master4.teamviewer.com:5938, IP: 178.77.120.102 was successful.
+2016/10/05 13:57:04.784   666 0xfef4c5f0 G0   CProcessCommandHandlerMasterConnect[2]::HandleMasterConnect(): Sending MasterCommand f=Reg&ic=1022086039&id=0&iguid={469b98e6-dbae-4628-8df4-c81352afc26b}&mac=c0a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf&mid=c0a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf&midf=64&midfup=0&midhistory=c0a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf|c1a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf&midv=0&os=ChromeOS&rhash={95be2faf-90b4-450b-8a4e-6ecab4704f79}&smidv=1&sro=0&v=11.0.55500 
+2016/10/05 13:57:04.935   666 0xfef4bfe0 G0   CProcessCommandHandlerMasterConnect[2]::ReceivedMasterResponse(): Received MasterCommand 577553114+1
+2016/10/05 13:57:04.936   666 0xfef4bfe0 G0   CKeepAliveClient::HandleRegisterUserAnswer(): Register successful: ClientID 577553114, ClientIC 0
+2016/10/05 13:57:04.936   666 0xfef4cc00 G0+  CTcpConnectionBase[2]::HandleReadError(): Socket gracefully closed. ClientID: 0
+2016/10/05 13:57:04.966   666 0xfef4bfe0 G0   Generating new RSA private/public key pair
+2016/10/05 13:57:05.089   666 0xfef4bfe0 G0   CTerminalServer::UpdateSessionInfo clientID=577553114
+2016/10/05 13:57:05.089   666 0xfef4bfe0 G0   CInterProcessNetwork::SetDyngateIDforSession() id=577553114 session=0 ptype=2
+2016/10/05 13:57:05.090   666 0xfef4d210 G0   UpdateState teamViewerID=577553114 isLoggedIn=0
+2016/10/05 13:57:05.090   666 0xfef4d210 G0+  Send Status to GUI: {"command":"status","isLoggedIn":false,"teamviewerId":577553114}
+
+2016/10/05 13:57:05.108   666 0xfef4bfe0 G0   Activating Router carrier
+2016/10/05 13:57:05.109   666 0xfef4bfe0 G0+  CProcessCommandHandlerPing[3]::CreatePinger(): ping3.teamviewer.com:5938, Connection 3
+2016/10/05 13:57:05.268   666 0xfef4c5f0 G0+  CTcpConnectionBase[3]::HandleConnect(): Connect to ping3.teamviewer.com:5938, IP: 37.252.230.28 was successful.
+2016/10/05 13:57:05.426   666 0xfef4c5f0 G0   CKeepAliveClientClient::HandlePing(): success
+2016/10/05 13:57:05.427   666 0xfef4c5f0 G0   Activating Router carrier
+2016/10/05 13:57:05.427   666 0xfef4c5f0 G0   CProcessCommandHandlerMasterConnect[4]::CreateMasterConnect(): master4.teamviewer.com:5938, Connection 4, proxy=''
+2016/10/05 13:57:05.428   666 0xfef4d210 G0+  CTcpConnectionBase[3]::HandleReadError(): Socket gracefully closed. ClientID: 0
+2016/10/05 13:57:05.557   666 0xfef4bfe0 G0+  CTcpConnectionBase[4]::HandleConnect(): Connect to master4.teamviewer.com:5938, IP: 178.77.120.102 was successful.
+2016/10/05 13:57:05.557   666 0xfef4bfe0 G0   CProcessCommandHandlerMasterConnect[4]::HandleMasterConnect(): Sending MasterCommand f=SetPublicKey&ic=1022086039&id=577553114&mid=c1a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf&midv=1&v=11.0.55500 
+2016/10/05 13:57:05.685   666 0xfef4c5f0 G0   CProcessCommandHandlerMasterConnect[4]::ReceivedMasterResponse(): Received MasterCommand OK
+2016/10/05 13:57:05.686   666 0xfef4bfe0 G0+  CTcpConnectionBase[4]::HandleReadError(): Socket gracefully closed. ClientID: 0
+2016/10/05 13:57:05.686   666 0xfef4c5f0 G0   Activating Router carrier
+2016/10/05 13:57:05.687   666 0xfef4cc00 G0+  IConnection[4]::SendDataAsio(): Connection is already closing. Discarding 9 Bytes
+2016/10/05 13:57:05.687   666 0xfef4c5f0 G0   CProcessCommandHandlerMasterConnect[5]::CreateMasterConnect(): master4.teamviewer.com:5938, Connection 5, proxy=''
+2016/10/05 13:57:05.687   666 0xfef4c5f0 G0   TcpCarrierBase[4]::HandleWrite(): Error 3 (Connection is already closing), count 1
+2016/10/05 13:57:05.809   666 0xfef4d210 G0+  CTcpConnectionBase[5]::HandleConnect(): Connect to master4.teamviewer.com:5938, IP: 178.77.120.102 was successful.
+2016/10/05 13:57:05.810   666 0xfef4d210 G0   CProcessCommandHandlerMasterConnect[5]::HandleMasterConnect(): Sending MasterCommand f=SetSignatureKey&ic=1022086039&id=577553114&mid=c1a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf&midv=1&v=11.0.55500 
+2016/10/05 13:57:05.931   666 0xfef4d210 G0   CProcessCommandHandlerMasterConnect[5]::ReceivedMasterResponse(): Received MasterCommand OK
+2016/10/05 13:57:05.932   666 0xfef4cc00 G0+  CTcpConnectionBase[5]::HandleReadError(): Socket gracefully closed. ClientID: 0
+2016/10/05 13:57:05.932   666 0xfef4d210 G0+  IsValidOEMID: oemid:"" length:"0"
+2016/10/05 13:57:05.932   666 0xfef4cc00 G0+  IConnection[5]::SendDataAsio(): Connection is already closing. Discarding 9 Bytes
+2016/10/05 13:57:05.933   666 0xfef4d210 G0   Activating Router carrier
+2016/10/05 13:57:05.933   666 0xfef4d210 G0   CProcessCommandHandlerMasterConnect[6]::CreateMasterConnect(): master4.teamviewer.com:5938, Connection 6, proxy=''
+2016/10/05 13:57:05.934   666 0xfef4d210 G0   TcpCarrierBase[5]::HandleWrite(): Error 3 (Connection is already closing), count 1
+2016/10/05 13:57:06.057   666 0xfef4bfe0 G0+  CTcpConnectionBase[6]::HandleConnect(): Connect to master4.teamviewer.com:5938, IP: 178.77.120.102 was successful.
+2016/10/05 13:57:06.058   666 0xfef4bfe0 G0   CProcessCommandHandlerMasterConnect[6]::HandleMasterConnect(): Sending MasterCommand addonchannels=0&client=TV&f=Login&gw=0&gwlevel=400&hideonlinestatus=0&httpout=1&ic=1022086039&id=577553114&iguid={469b98e6-dbae-4628-8df4-c81352afc26b}&language=en&licensetype=0&mid=c1a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf&midf=64&midhistory=c0a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf|c1a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf&midv=1&noofactivekeepalive=0&os=ChromeOS&port443out=0&rhash={95be2faf-90b4-450b-8a4e-6ecab4704f79}&runtime=2&smidv=1&sro=0&supportedfeatures=82738141&tcpout=1&usednsnames=1&v=11.0.55500 
+2016/10/05 13:57:06.188   666 0xfef4cc00 G0   CProcessCommandHandlerMasterConnect[6]::ReceivedMasterResponse(): Received MasterCommand OK_10000_-_2__server18308.teamviewer.com:5938_35091_1_-1_0.0.0.0__178.77.120.103_178.77.120.102_0_577553114_1_0_0_0_64749433__server25305.teamviewer.com,server25102.teamviewer.com,server26303.teamviewer.com,server21106.teamviewer.com,server21003.teamviewer.com,server24704.teamviewer.com,server3302.teamviewer.com,server18104.teamviewer.com,server18202.teamviewer.com,server18301.teamviewer.com,server18406.teamviewer.com_ef/bAwA=
+2016/10/05 13:57:06.189   666 0xfef4d210 G0+  CTcpConnectionBase[6]::HandleReadError(): Socket gracefully closed. ClientID: 0
+2016/10/05 13:57:06.207   666 0xfef4cc00 G0   local license differs from master license
+2016/10/05 13:57:06.207   666 0xfef4cc00 G0   CTerminalServer::UpdateSessionInfo clientID=577553114
+2016/10/05 13:57:06.208   666 0xfef4cc00 G0   CInterProcessNetwork::SetDyngateIDforSession() id=577553114 session=0 ptype=2
+2016/10/05 13:57:06.208   666 0xfef4cc00 G0!  CKeepAliveClient::HandleLoginUserAnswer(): KeepAliveServer server18308.teamviewer.com:5938
+2016/10/05 13:57:06.208   666 0xfef4bfe0 G0   UpdateState teamViewerID=577553114 isLoggedIn=0
+2016/10/05 13:57:06.209   666 0xfef4bfe0 G0+  Send Status to GUI: {"command":"status","isLoggedIn":false,"teamviewerId":577553114}
+
+2016/10/05 13:57:06.209   666 0xfef4cc00 G0   Activating Router carrier
+2016/10/05 13:57:06.210   666 0xfef4cc00 G0+  CProcessCommandHandlerKeepAliveClient[7]::CreateKeepaliveChannel(): server18308.teamviewer.com:5938 Connection 7 
+2016/10/05 13:57:06.310   666 0xfef4c5f0 G0+  CTcpConnectionBase[7]::HandleConnect(): Connect to server18308.teamviewer.com:5938, IP: 50.22.136.116 was successful.
+2016/10/05 13:57:06.311   666 0xfef4c5f0 G0   KeepAliveSessionOutgoing::ConnectSuccessHandler(): KeepAliveConnect to server18308.teamviewer.com successful
+2016/10/05 13:57:06.441   666 0xfef4d210 G0+  CProcessCommandHandlerKeepAlive[7]::StartRouterPing(): Router ping started with 784096365 (50.22.136.116) 
+2016/10/05 13:57:06.441   666 0xfef4d210 G0   KeepAliveSessionOutgoing::KeepAliveChannelInitialized(): KeepAliveConnection to server18308.teamviewer.com initialized
+2016/10/05 13:57:06.442   666 0xfef4d210 G0!! KeepAliveSession::KeepAliveChannelInitialized(): KeepAlive-Connection initialized with ID 784096365 (IP: 50.22.136.116), SendQueue 0 (0 Bytes), SendIndex 0, AckIndex 0, RemoteSessionID 7
+2016/10/05 13:57:06.442   666 0xfef4d210 G0!  KeepAliveSession::SendCompleteQueue(): SendQueue: 0 (0 Bytes), RemoteSession 7 (ClientID 784096365), Time: 0 ms
+2016/10/05 13:57:06.508   666 0xfef4c5f0 G0   CProcessCommandHandlerKeepAliveClient[7]::ReceivedCmdBuddy(): CC=3 CT=35
+2016/10/05 13:57:06.508   666 0xfef4c5f0 G0+  CProcessCommandHandlerKeepAlive[7]::CmdPingRouter: Router Pong Received with following Hops: 577553114 784096365, Time 67 ms
+2016/10/05 13:57:06.509   666 0xfef4c5f0 G0   TVRouterClock Schedule next request in 0 seconds
+2016/10/05 13:57:06.509   666 0xfef4c5f0 G0+  TVRouterClock: new connection available
+2016/10/05 13:57:06.510   666 0xfef4c5f0 G0   TVRouterClock Schedule next request in 0 seconds
+2016/10/05 13:57:06.510   666 0xfef4c5f0 G0   TVRouterClock Schedule next request in 0 seconds
+2016/10/05 13:57:06.510   666 0xfef4c5f0 G0+  IsValidOEMID: oemid:"" length:"0"
+2016/10/05 13:57:06.511   666 0xfef4c5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting DyngateID to 577553114
+2016/10/05 13:57:06.511   666 0xfef4c5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting License to 10000
+2016/10/05 13:57:06.511   666 0xfef4cc00 G0+  TVRouterClock::RequestRouterTime(): Requesting Router Time
+2016/10/05 13:57:06.512   666 0xfef4c5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting SupportedFeatures1 to 82738141
+2016/10/05 13:57:06.512   666 0xfef4c5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting SupportedFeatures2 to 10248
+2016/10/05 13:57:06.513   666 0xfef4c5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting UserLanguage to "en"
+2016/10/05 13:57:06.513   666 0xfef4c5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting OEMID to ""
+2016/10/05 13:57:06.514   666 0xfef4cc00 G0   UpdateState teamViewerID=577553114 isLoggedIn=1
+2016/10/05 13:57:06.514   666 0xfef4cc00 G0+  Send Status to GUI: {"command":"status","isLoggedIn":true,"teamviewerId":577553114}
+
+2016/10/05 13:57:06.581   666 0xfef4d210 G0   TVRouterClock: received router time: 20161005T175706.538443
+2016/10/05 13:57:07.104   666 0xfef4d210 G0   TVRouterClock Schedule next request in 43200 seconds
+2016/10/05 13:57:07.923   666 0xfef4d210 G0   AsyncMessaging::UnregisterAtAsyncMessageProvider(): Unregister successful
+2016/10/05 13:57:07.988   666 0xfef4bfe0 G0+  ConfigurationControllerImpl::TriggerRequest(): Sending out request for session 0 with features {1,5}
+2016/10/05 13:57:08.057   666 0xfef4c5f0 G0+  ConfigurationControllerImpl::ProcessConfigurationResponse(): configuration for session 0 contains 2 features
+2016/10/05 13:57:08.058   666 0xfef4c5f0 G0+  ConfigurationControllerImpl::ParseReceivedConfigurations(): configuration for session 0, feature 1, contains 1 settings
+2016/10/05 13:57:08.059   666 0xfef4c5f0 G0+  ConfigurationControllerImpl::ParseReceivedConfigurations(): configuration for session 0, feature 5, contains 2 settings
+2016/10/05 13:57:08.059   666 0xfef4c5f0 G0+  ConfigurationControllerImpl::HandleConfiguration(): Ready for next request
+2016/10/05 13:57:08.060   666 0xfef4c5f0 G0+  ConfigurationControllerImpl::TriggerRequest(): No more requests in queue
+2016/10/05 13:57:25.265   666 0xfef4d210 G0   Incoming Chrome Command: 'loginAccount'
+2016/10/05 13:57:25.265   666 0xfef4d210 G0   LoginAccount::LoginAccountWithPassword: username=502097523@qq.com
+2016/10/05 13:57:25.286   666 0xfef4d210 G0   Account::SetLoginState: new state: 1
+2016/10/05 13:57:25.286   666 0xfef4d210 G0   Account::UpdateState: KA = 1, active = 1
+2016/10/05 13:57:25.286   666 0xfef4cc00 G0   Account::SetLoginState: new state: 3
+2016/10/05 13:57:25.287   666 0xfef4d210 G0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 14, CT: 5, CallbackID: {ec5732e9-ec9d-4a7c-8767-ce1c7af15784}
+2016/10/05 13:57:25.287   666 0xfef4d210 G0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 5, Command Class: 14, Command UUID: {ec5732e9-ec9d-4a7c-8767-ce1c7af15784})
+2016/10/05 13:57:25.287   666 0xfef4bfe0 G0+  ControlCenterIPCAdapter::RegisterCallback(): CC: 14, CT: 5, ProcessType: 2, TerminalServerSessionID: 0, DyngateID: 577553114, UUID {ec5732e9-ec9d-4a7c-8767-ce1c7af15784}
+2016/10/05 13:57:25.288   666 0xfef4d210 G0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 14, CT: 7, CallbackID: {fb03229b-ebcb-4685-805b-607d61ced194}
+2016/10/05 13:57:25.288   666 0xfef4d210 G0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 7, Command Class: 14, Command UUID: {fb03229b-ebcb-4685-805b-607d61ced194})
+2016/10/05 13:57:25.289   666 0xfef4cc00 G0+  ControlCenterIPCAdapter::RegisterCallback(): CC: 14, CT: 7, ProcessType: 2, TerminalServerSessionID: 0, DyngateID: 577553114, UUID {fb03229b-ebcb-4685-805b-607d61ced194}
+2016/10/05 13:57:25.289   666 0xfef4d210 G0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 14, CT: 13, CallbackID: {f36a3449-e0a9-44da-a0b1-36231f7f3752}
+2016/10/05 13:57:25.290   666 0xfef4bfe0 G0+  ControlCenterIPCAdapter::RegisterCallback(): CC: 14, CT: 13, ProcessType: 2, TerminalServerSessionID: 0, DyngateID: 577553114, UUID {f36a3449-e0a9-44da-a0b1-36231f7f3752}
+2016/10/05 13:57:25.290   666 0xfef4d210 G0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 13, Command Class: 14, Command UUID: {f36a3449-e0a9-44da-a0b1-36231f7f3752})
+2016/10/05 13:57:25.291   666 0xfef4d210 G0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 14, CT: 15, CallbackID: {d1ba9e3f-9cd4-454c-bd3f-f7e7e7496c37}
+2016/10/05 13:57:25.291   666 0xfef4cc00 G0+  ControlCenterIPCAdapter::RegisterCallback(): CC: 14, CT: 15, ProcessType: 2, TerminalServerSessionID: 0, DyngateID: 577553114, UUID {d1ba9e3f-9cd4-454c-bd3f-f7e7e7496c37}
+2016/10/05 13:57:25.291   666 0xfef4d210 G0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 15, Command Class: 14, Command UUID: {d1ba9e3f-9cd4-454c-bd3f-f7e7e7496c37})
+2016/10/05 13:57:25.292   666 0xfef4d210 G0   ControlCenterIPCImplementation::RegisterPacketCallback(): CC: 14, CT: 53, CallbackID: {c6a5e0d7-5918-44f0-bced-f6eb68fcd095}
+2016/10/05 13:57:25.292   666 0xfef4d210 G0   tvclientbase::ControlCenterCallbackHandle created (Command Type: 53, Command Class: 14, Command UUID: {c6a5e0d7-5918-44f0-bced-f6eb68fcd095})
+2016/10/05 13:57:25.292   666 0xfef4bfe0 G0+  ControlCenterIPCAdapter::RegisterCallback(): CC: 14, CT: 53, ProcessType: 2, TerminalServerSessionID: 0, DyngateID: 577553114, UUID {c6a5e0d7-5918-44f0-bced-f6eb68fcd095}
+2016/10/05 13:57:25.292   666 0xfef4d210 G0   AccountLogin::Start: Trying account authentication
+2016/10/05 13:57:25.292   666 0xfef4bfe0 G0+  ControlCenterIPCAdapter::RegisterCallback(): CC: 14, CT: 31, ProcessType: 2, TerminalServerSessionID: 0, DyngateID: 577553114, UUID {00000000-0000-0000-0000-000000000000}
+2016/10/05 13:57:25.318   666 0xfef4d210 G0   CSendCommandToMaster::SendBCommandToMaster: CC=3 CT=4
+2016/10/05 13:57:25.587   666 0xfef4d210 G0   CProcessCommandHandlerKeepAliveClient[7]::ReceivedCmdBuddy(): CC=3 CT=20
+2016/10/05 13:57:25.587   666 0xfef4d210 G0   AccountLogin::HandleChallenge: Try V2Login
+2016/10/05 13:57:25.637   666 0xfef4d210 G0   CSendCommandToMaster::SendBCommandToMaster: CC=3 CT=4
+2016/10/05 13:57:25.884   666 0xfef4bfe0 G0   CProcessCommandHandlerKeepAliveClient[7]::ReceivedCmdBuddy(): CC=3 CT=1
+2016/10/05 13:57:25.885   666 0xfef4c5f0 G0!!!AccountLogin::OnResponseError: Unexpected error code
+2016/10/05 13:57:25.885   666 0xfef4c5f0 G0!! AccountLogin::Error: Authentication failed with error 87
+2016/10/05 13:57:25.885   666 0xfef4bfe0 G0!! LoginAccount::LoginError: error=87 Please check your inbox for the mail we sent you and follow the provided link. We could not verify if your account has been used on this device before. To sign in on this device you need to add it to your trusted devices.
+2016/10/05 13:57:25.886   666 0xfef4bfe0 G0   Account::SetLoginState: new state: 2
+2016/10/05 13:57:25.886   666 0xfef4cc00 G0   ControlCenterIPCAdapter::UnregisterCallback(): CC: 14, CT: 7, ProcessType: 2, TerminalServerSessionID: 0, DyngateID: 577553114, Command UUID: {fb03229b-ebcb-4685-805b-607d61ced194}
+2016/10/05 13:57:25.886   666 0xfef4c5f0 G0   tvclientbase::ControlCenterCallbackHandle destroyed (Command Type: 7, Command Class: 14, Command UUID: {fb03229b-ebcb-4685-805b-607d61ced194})
+2016/10/05 13:57:25.887   666 0xfef4bfe0 G0   ControlCenterIPCAdapter::UnregisterCallback(): CC: 14, CT: 5, ProcessType: 2, TerminalServerSessionID: 0, DyngateID: 577553114, Command UUID: {ec5732e9-ec9d-4a7c-8767-ce1c7af15784}
+2016/10/05 13:57:25.887   666 0xfef4c5f0 G0   tvclientbase::ControlCenterCallbackHandle destroyed (Command Type: 5, Command Class: 14, Command UUID: {ec5732e9-ec9d-4a7c-8767-ce1c7af15784})
+2016/10/05 13:57:25.888   666 0xfef4c5f0 G0   tvclientbase::ControlCenterCallbackHandle destroyed (Command Type: 53, Command Class: 14, Command UUID: {c6a5e0d7-5918-44f0-bced-f6eb68fcd095})
+2016/10/05 13:57:25.888   666 0xfef4c5f0 G0   tvclientbase::ControlCenterCallbackHandle destroyed (Command Type: 15, Command Class: 14, Command UUID: {d1ba9e3f-9cd4-454c-bd3f-f7e7e7496c37})
+2016/10/05 13:57:25.888   666 0xfef4c5f0 G0   tvclientbase::ControlCenterCallbackHandle destroyed (Command Type: 13, Command Class: 14, Command UUID: {f36a3449-e0a9-44da-a0b1-36231f7f3752})
+2016/10/05 13:57:25.889   666 0xfef4c5f0 G0   ControlCenterIPCAdapter::UnregisterCallback(): CC: 14, CT: 53, ProcessType: 2, TerminalServerSessionID: 0, DyngateID: 577553114, Command UUID: {c6a5e0d7-5918-44f0-bced-f6eb68fcd095}
+2016/10/05 13:57:25.889   666 0xfef4c5f0 G0   ControlCenterIPCAdapter::UnregisterCallback(): CC: 14, CT: 15, ProcessType: 2, TerminalServerSessionID: 0, DyngateID: 577553114, Command UUID: {d1ba9e3f-9cd4-454c-bd3f-f7e7e7496c37}
+2016/10/05 13:57:25.889   666 0xfef4c5f0 G0   ControlCenterIPCAdapter::UnregisterCallback(): CC: 14, CT: 13, ProcessType: 2, TerminalServerSessionID: 0, DyngateID: 577553114, Command UUID: {f36a3449-e0a9-44da-a0b1-36231f7f3752}
+2016/10/05 13:57:31.109   666 0xfef4cc00 G0   Incoming Chrome Command: 'closeSession'
+2016/10/05 13:57:31.110   666 0xfef4cc00 G0!  Unhandled UICommand 'closeSession'
+2016/10/05 13:57:31.110   666 0xfef4cc00 G0   Incoming Chrome Command: 'logMessage'
+2016/10/05 13:57:31.110   666 0xfef4cc00 G0   GUI: app window closed
+2016/10/05 13:57:31.110   666 0xfef4cc00 G0   Incoming Chrome Command: 'logMessage'
+2016/10/05 13:57:31.110   666 0xfef4cc00 G0   GUI: closing session
+2016/10/12 21:06:39.000   666 0xfe92b9c8 G0   Logger started.
+2016/10/12 21:06:39.011   666 0xfe92b9c8 G0+  Thread: IOServiceWorker_0_1
+2016/10/12 21:06:39.011   666 0xfe92b9c8 G0+  Thread: IOServiceWorker_0_0
+2016/10/12 17:06:39.011   666 0xfe92b9c8 G0   Timezone: 4
+2016/10/12 17:06:39.012   666 0xfe92b9c8 G0+  Thread: IOServiceWorker_0_3
+2016/10/12 17:06:39.012   666 0xfe92b9c8 G0+  Thread: IOServiceWorker_0_2
+2016/10/12 17:06:39.024   666 0xfe92b9c8 G0   Incoming Chrome Command: 'systemInfos'
+2016/10/12 17:06:39.045   666 0xfe92b9c8 G0   InterProcessBase::SecureNetwork created
+2016/10/12 17:06:39.050   666 0xfe92b9c8 G0+  Thread: TimedCallback
+2016/10/12 17:06:39.050   666 0xfeebc5f0 G0+  LoginAccount::TryAutoLogin() called
+2016/10/12 17:06:39.051   666 0xfeebc5f0 G0   OS = linux
+2016/10/12 17:06:39.052   666 0xfeebc5f0 G0   PlatformArch = x86-64
+2016/10/12 17:06:39.053   666 0xfeebc5f0 G0   NaclArch = x86-64
+2016/10/12 17:06:39.053   666 0xfeebc5f0 G0   TotalMemory = 7865MB
+2016/10/12 17:06:39.054   666 0xfeebc5f0 G0   AvailableMemory = 130MB
+2016/10/12 17:06:39.054   666 0xfeebc5f0 G0   NumOfProcessors = 4
+2016/10/12 17:06:39.054   666 0xfeebc5f0 G0   CpuArch = x86_64
+2016/10/12 17:06:39.054   666 0xfeebc5f0 G0   ModelName = Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz
+2016/10/12 17:06:39.062   666 0xfeebc5f0 G0   UpdateOnlineState newOnlineValue 0
+
+
+
+Start:              2016/10/12 17:06:39.258
+Version:            11.0.55500 
+ID:                 577553114
+Loglevel:           Verbose (70)
+License:            10000
+Server:             master11.teamviewer.com
+IC:                 1022086039
+CPU:                Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz
+OS:                 ChromeOS (64-bit)
+IP:                 255.255.255.255
+MID:                c1a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf
+MIDv:               1
+Proxy-Settings:     Type=1 IP= User=
+
+2016/10/12 17:06:39.290   666 0xfeebc5f0 G0+  IsValidOEMID: oemid:"" length:"0"
+2016/10/12 17:06:39.291   666 0xfeebc5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting VersionMajor to 11
+2016/10/12 17:06:39.292   666 0xfeebc5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting VersionMinor to 0
+2016/10/12 17:06:39.293   666 0xfeebc5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting VersionBuildnumber to 55500
+2016/10/12 17:06:39.293   666 0xfeebc5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting VersionExtra to ""
+2016/10/12 17:06:39.294   666 0xfeebc5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting Environment to 0
+2016/10/12 17:06:39.295   666 0xfeebc5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting OEMID to ""
+2016/10/12 17:06:39.296   666 0xfeebc5f0 G0   UpdateOnlineState newOnlineValue 0
+2016/10/12 17:06:39.297   666 0xfeebc5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting TVEdition to 1
+2016/10/12 17:06:39.297   666 0xfeebc5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting Country to ""
+2016/10/12 17:06:39.297   666 0xfeebc5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting OperatingSystem to 9
+2016/10/12 17:06:39.297   666 0xfeebc5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting Platform to "pnacl"
+2016/10/12 17:06:39.297   666 0xfeebc5f0 G0   Starting intra process connection
+2016/10/12 17:06:39.297   666 0xfeebcc00 G0+  CInterProcessNetwork::Received_Control_InitIPC: Connecting process: 666
+2016/10/12 17:06:39.300   666 0xfeebcc00 G0+  CInterProcessNetwork::Received_Control_InitIPC: Send InitIPC_Response to process: 666
+2016/10/12 17:06:39.300   666 0xfeebcc00 G0   CInterProcessNetwork::SetDyngateIDforSession() id=577553114 session=0 ptype=2
+2016/10/12 17:06:39.300   666 0xfeebcc00 G0   UpdateOnlineState newOnlineValue 1
+2016/10/12 17:06:39.301   666 0xfeebd210 G0   UpdateState teamViewerID=0 isLoggedIn=0
+2016/10/12 17:06:39.302   666 0xfeebd210 G0+  Send Status to GUI: {"command":"status","isLoggedIn":false,"teamviewerId":0}
+
+2016/10/12 17:06:39.304   666 0xfeebd210 G0   Received Control_InitIPC_Response processtype=1
+2016/10/12 17:06:39.305   666 0xfeebd210 G0   Received Control_InitIPC_Response runningProcesses=3
+2016/10/12 17:06:39.305   666 0xfeebd210 G0   Control_InitIPC_Response: all processes 3 completely initialized
+2016/10/12 17:06:39.305   666 0xfeebd210 G0+  InterProcess: Sending 1 queued command(s).
+2016/10/12 17:06:39.305   666 0xfeebd210 G0+  ConfigurationHub::HandleIPCConnect(): renew feature registrations
+2016/10/12 17:06:39.305   666 0xfeebbfe0 G0+  ConfigurationControllerImpl::TriggerRequest(): Not ready for requests, state is 0
+2016/10/12 17:06:39.306   666 0xfeebbfe0 G0+  ConfigurationControllerImpl::TriggerRequest(): Not ready for requests, state is 0
+2016/10/12 17:06:39.306   666 0xfeebd210 G0   UpdateState teamViewerID=577553114 isLoggedIn=0
+2016/10/12 17:06:39.307   666 0xfeebd210 G0+  Send Status to GUI: {"command":"status","isLoggedIn":false,"teamviewerId":577553114}
+
+2016/10/12 17:06:39.313   666 0xfe69b7d0 G0+  Thread: OnlineInternal_Network
+2016/10/12 17:06:39.314   666 0xfe69b7d0 G0   TeamViewer is going online!
+2016/10/12 17:06:39.318   666 0xfeebc5f0 G0   CKeepAliveClientClient::DoReconnectInternal: doing nothing, state = 0
+2016/10/12 17:06:39.318   666 0xfeebc5f0 G0   Activating Router carrier
+2016/10/12 17:06:39.319   666 0xfeebc5f0 G0+  CProcessCommandHandlerPing[1]::CreatePinger(): ping3.teamviewer.com:5938, Connection 1
+2016/10/12 17:06:39.439   666 0xfeebcc00 G0+  CTcpConnectionBase[1]::HandleConnect(): Connect to ping3.teamviewer.com:5938, IP: 37.252.227.51 was successful.
+2016/10/12 17:06:39.550   666 0xfeebc5f0 G0   NetWatchdog: Ping successful! Port: 5938
+2016/10/12 17:06:39.550   666 0xfeebc5f0 G0   NetWatchdog: Internet is now connected
+2016/10/12 17:06:39.550   666 0xfeebc5f0 G0   CKeepAliveClientClient::HandlePing(): success
+2016/10/12 17:06:39.551   666 0xfeebc5f0 G0+  IsValidOEMID: oemid:"" length:"0"
+2016/10/12 17:06:39.552   666 0xfeebc5f0 G0   Activating Router carrier
+2016/10/12 17:06:39.553   666 0xfeebc5f0 G0   CProcessCommandHandlerMasterConnect[2]::CreateMasterConnect(): master11.teamviewer.com:5938, Connection 2, proxy=''
+2016/10/12 17:06:39.553   666 0xfeebc5f0 G0+  CTcpConnectionBase[1]::HandleReadError(): Socket gracefully closed. ClientID: 0
+2016/10/12 17:06:39.682   666 0xfeebd210 G0+  CTcpConnectionBase[2]::HandleConnect(): Connect to master11.teamviewer.com:5938, IP: 178.77.120.100 was successful.
+2016/10/12 17:06:39.682   666 0xfeebd210 G0   CProcessCommandHandlerMasterConnect[2]::HandleMasterConnect(): Sending MasterCommand addonchannels=0&client=TV&f=Login&gw=0&gwlevel=400&hideonlinestatus=0&httpout=1&ic=1022086039&id=577553114&iguid={469b98e6-dbae-4628-8df4-c81352afc26b}&language=en&licensetype=10000&mid=c1a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf&midf=64&midhistory=c0a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf|c1a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf&midv=1&noofactivekeepalive=0&os=ChromeOS&port443out=0&rhash={81463639-56da-4604-b375-db24ee59f531}&runtime=1&smidv=1&sro=0&supportedfeatures=82738141&tcpout=1&usednsnames=1&v=11.0.55500 
+2016/10/12 17:06:39.814   666 0xfeebd210 G0   CProcessCommandHandlerMasterConnect[2]::ReceivedMasterResponse(): Received MasterCommand OK_10000_-_2__server3303.teamviewer.com:5938_35091_1_-1_0.0.0.0__178.77.120.101_178.77.120.100_0_577553114_1_0_0_0_64749433__server21107.teamviewer.com,server21008.teamviewer.com,server24707.teamviewer.com,server3301.teamviewer.com,server18110.teamviewer.com,server18205.teamviewer.com,server18310.teamviewer.com,server18401.teamviewer.com_ef/bAwA=
+2016/10/12 17:06:39.815   666 0xfeebd210 G0   CTerminalServer::UpdateSessionInfo clientID=577553114
+2016/10/12 17:06:39.816   666 0xfeebd210 G0   CInterProcessNetwork::SetDyngateIDforSession() id=577553114 session=0 ptype=2
+2016/10/12 17:06:39.816   666 0xfeebd210 G0!  CKeepAliveClient::HandleLoginUserAnswer(): KeepAliveServer server3303.teamviewer.com:5938
+2016/10/12 17:06:39.816   666 0xfeebbfe0 G0   UpdateState teamViewerID=577553114 isLoggedIn=0
+2016/10/12 17:06:39.817   666 0xfeebbfe0 G0+  Send Status to GUI: {"command":"status","isLoggedIn":false,"teamviewerId":577553114}
+
+2016/10/12 17:06:39.817   666 0xfeebc5f0 G0+  CTcpConnectionBase[2]::HandleReadError(): Socket gracefully closed. ClientID: 0
+2016/10/12 17:06:39.818   666 0xfeebd210 G0   Activating Router carrier
+2016/10/12 17:06:39.818   666 0xfeebd210 G0+  CProcessCommandHandlerKeepAliveClient[3]::CreateKeepaliveChannel(): server3303.teamviewer.com:5938 Connection 3 
+2016/10/12 17:06:39.930   666 0xfeebbfe0 G0+  CTcpConnectionBase[3]::HandleConnect(): Connect to server3303.teamviewer.com:5938, IP: 209.58.129.78 was successful.
+2016/10/12 17:06:39.930   666 0xfeebbfe0 G0   KeepAliveSessionOutgoing::ConnectSuccessHandler(): KeepAliveConnect to server3303.teamviewer.com successful
+2016/10/12 17:06:40.088   666 0xfeebcc00 G0+  CProcessCommandHandlerKeepAlive[3]::StartRouterPing(): Router ping started with 240993985 (209.58.129.78) 
+2016/10/12 17:06:40.089   666 0xfeebcc00 G0   KeepAliveSessionOutgoing::KeepAliveChannelInitialized(): KeepAliveConnection to server3303.teamviewer.com initialized
+2016/10/12 17:06:40.089   666 0xfeebcc00 G0!! KeepAliveSession::KeepAliveChannelInitialized(): KeepAlive-Connection initialized with ID 240993985 (IP: 209.58.129.78), SendQueue 0 (0 Bytes), SendIndex 0, AckIndex 0, RemoteSessionID 3
+2016/10/12 17:06:40.089   666 0xfeebcc00 G0!  KeepAliveSession::SendCompleteQueue(): SendQueue: 0 (0 Bytes), RemoteSession 3 (ClientID 240993985), Time: 0 ms
+2016/10/12 17:06:40.168   666 0xfeebd210 G0   CProcessCommandHandlerKeepAliveClient[3]::ReceivedCmdBuddy(): CC=3 CT=35
+2016/10/12 17:06:40.168   666 0xfeebd210 G0+  CProcessCommandHandlerKeepAlive[3]::CmdPingRouter: Router Pong Received with following Hops: 577553114 240993985, Time 79 ms
+2016/10/12 17:06:40.168   666 0xfeebd210 G0   TVRouterClock Schedule next request in 0 seconds
+2016/10/12 17:06:40.168   666 0xfeebd210 G0+  TVRouterClock: new connection available
+2016/10/12 17:06:40.168   666 0xfeebd210 G0   TVRouterClock Schedule next request in 0 seconds
+2016/10/12 17:06:40.168   666 0xfeebd210 G0   TVRouterClock Schedule next request in 0 seconds
+2016/10/12 17:06:40.169   666 0xfeebd210 G0+  IsValidOEMID: oemid:"" length:"0"
+2016/10/12 17:06:40.169   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting DyngateID to 577553114
+2016/10/12 17:06:40.169   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting License to 10000
+2016/10/12 17:06:40.169   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting SupportedFeatures1 to 82738141
+2016/10/12 17:06:40.169   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting SupportedFeatures2 to 10248
+2016/10/12 17:06:40.169   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting UserLanguage to "en"
+2016/10/12 17:06:40.169   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting OEMID to ""
+2016/10/12 17:06:40.170   666 0xfeebd210 G0   UpdateState teamViewerID=577553114 isLoggedIn=1
+2016/10/12 17:06:40.170   666 0xfeebd210 G0+  Send Status to GUI: {"command":"status","isLoggedIn":true,"teamviewerId":577553114}
+
+2016/10/12 17:06:40.170   666 0xfeebbfe0 G0+  TVRouterClock::RequestRouterTime(): Requesting Router Time
+2016/10/12 17:06:40.249   666 0xfeebcc00 G0   TVRouterClock: received router time: 20161012T210618.009817
+2016/10/12 17:06:40.249   666 0xfeebcc00 G0   TVRouterClock Schedule next request in 43200 seconds
+2016/10/12 17:06:40.847   666 0xfeebcc00 G0   AsyncMessaging::UnregisterAtAsyncMessageProvider(): Unregister successful
+2016/10/12 17:06:40.925   666 0xfeebc5f0 G0+  ConfigurationControllerImpl::TriggerRequest(): Sending out request for session 0 with features {1,5}
+2016/10/12 17:06:41.009   666 0xfeebbfe0 G0+  ConfigurationControllerImpl::ProcessConfigurationResponse(): configuration for session 0 contains 2 features
+2016/10/12 17:06:41.009   666 0xfeebbfe0 G0+  ConfigurationControllerImpl::ParseReceivedConfigurations(): configuration for session 0, feature 1, contains 1 settings
+2016/10/12 17:06:41.010   666 0xfeebbfe0 G0+  ConfigurationControllerImpl::ParseReceivedConfigurations(): configuration for session 0, feature 5, contains 2 settings
+2016/10/12 17:06:41.011   666 0xfeebbfe0 G0+  ConfigurationControllerImpl::HandleConfiguration(): Ready for next request
+2016/10/12 17:06:41.011   666 0xfeebbfe0 G0+  ConfigurationControllerImpl::TriggerRequest(): No more requests in queue
+2016/10/12 17:09:03.553   666 0xfeebc5f0 G0   Incoming Chrome Command: 'closeSession'
+2016/10/12 17:09:03.553   666 0xfeebc5f0 G0!  Unhandled UICommand 'closeSession'
+2016/10/12 17:09:03.553   666 0xfeebc5f0 G0   Incoming Chrome Command: 'logMessage'
+2016/10/12 17:09:03.553   666 0xfeebc5f0 G0   GUI: app window closed
+2016/10/12 17:09:03.555   666 0xfeebd210 G0   Incoming Chrome Command: 'logMessage'
+2016/10/12 17:09:03.556   666 0xfeebd210 G0   GUI: closing session
+2016/10/14 18:41:55.519   666 0xfe92a8e8 G0   Logger started.
+2016/10/14 18:41:55.522   666 0xfe92a8e8 G0+  Thread: IOServiceWorker_0_0
+2016/10/14 14:41:55.522   666 0xfe92a8e8 G0   Timezone: 4
+2016/10/14 14:41:55.523   666 0xfe92a8e8 G0+  Thread: IOServiceWorker_0_1
+2016/10/14 14:41:55.523   666 0xfe92a8e8 G0+  Thread: IOServiceWorker_0_2
+2016/10/14 14:41:55.525   666 0xfe92a8e8 G0+  Thread: IOServiceWorker_0_3
+2016/10/14 14:41:55.529   666 0xfe92a8e8 G0   Incoming Chrome Command: 'systemInfos'
+2016/10/14 14:41:55.823   666 0xfe92a8e8 G0   InterProcessBase::SecureNetwork created
+2016/10/14 14:41:55.830   666 0xfe92a8e8 G0+  Thread: TimedCallback
+2016/10/14 14:41:55.830   666 0xfeebbfe0 G0+  LoginAccount::TryAutoLogin() called
+2016/10/14 14:41:55.830   666 0xfeebbfe0 G0   OS = linux
+2016/10/14 14:41:55.830   666 0xfeebbfe0 G0   PlatformArch = x86-64
+2016/10/14 14:41:55.830   666 0xfeebbfe0 G0   NaclArch = x86-64
+2016/10/14 14:41:55.830   666 0xfeebbfe0 G0   TotalMemory = 7865MB
+2016/10/14 14:41:55.830   666 0xfeebbfe0 G0   AvailableMemory = 2014MB
+2016/10/14 14:41:55.830   666 0xfeebbfe0 G0   NumOfProcessors = 4
+2016/10/14 14:41:55.831   666 0xfeebbfe0 G0   CpuArch = x86_64
+2016/10/14 14:41:55.831   666 0xfeebbfe0 G0   ModelName = Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz
+2016/10/14 14:41:55.838   666 0xfeebbfe0 G0   UpdateOnlineState newOnlineValue 0
+
+
+
+Start:              2016/10/14 14:41:56.021
+Version:            11.0.55500 
+ID:                 577553114
+Loglevel:           Verbose (70)
+License:            10000
+Server:             master11.teamviewer.com
+IC:                 1022086039
+CPU:                Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz
+OS:                 ChromeOS (64-bit)
+IP:                 255.255.255.255
+MID:                c1a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf
+MIDv:               1
+Proxy-Settings:     Type=1 IP= User=
+
+2016/10/14 14:41:56.035   666 0xfeebbfe0 G0+  IsValidOEMID: oemid:"" length:"0"
+2016/10/14 14:41:56.036   666 0xfeebbfe0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting VersionMajor to 11
+2016/10/14 14:41:56.036   666 0xfeebbfe0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting VersionMinor to 0
+2016/10/14 14:41:56.036   666 0xfeebbfe0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting VersionBuildnumber to 55500
+2016/10/14 14:41:56.036   666 0xfeebbfe0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting VersionExtra to ""
+2016/10/14 14:41:56.037   666 0xfeebbfe0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting Environment to 0
+2016/10/14 14:41:56.037   666 0xfeebbfe0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting OEMID to ""
+2016/10/14 14:41:56.038   666 0xfeebbfe0 G0   UpdateOnlineState newOnlineValue 0
+2016/10/14 14:41:56.038   666 0xfeebbfe0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting TVEdition to 1
+2016/10/14 14:41:56.038   666 0xfeebbfe0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting Country to ""
+2016/10/14 14:41:56.038   666 0xfeebbfe0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting OperatingSystem to 9
+2016/10/14 14:41:56.038   666 0xfeebbfe0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting Platform to "pnacl"
+2016/10/14 14:41:56.039   666 0xfeebbfe0 G0   Starting intra process connection
+2016/10/14 14:41:56.039   666 0xfeebd210 G0+  CInterProcessNetwork::Received_Control_InitIPC: Connecting process: 666
+2016/10/14 14:41:56.041   666 0xfeebd210 G0+  CInterProcessNetwork::Received_Control_InitIPC: Send InitIPC_Response to process: 666
+2016/10/14 14:41:56.042   666 0xfeebd210 G0   CInterProcessNetwork::SetDyngateIDforSession() id=577553114 session=0 ptype=2
+2016/10/14 14:41:56.042   666 0xfeebd210 G0   UpdateOnlineState newOnlineValue 1
+2016/10/14 14:41:56.042   666 0xfe695f88 G0+  Thread: OnlineInternal_Network
+2016/10/14 14:41:56.043   666 0xfe695f88 G0   TeamViewer is going online!
+2016/10/14 14:41:56.044   666 0xfeebc5f0 G0   CKeepAliveClientClient::DoReconnectInternal: doing nothing, state = 0
+2016/10/14 14:41:56.044   666 0xfeebc5f0 G0   Activating Router carrier
+2016/10/14 14:41:56.045   666 0xfeebc5f0 G0+  CProcessCommandHandlerPing[1]::CreatePinger(): ping3.teamviewer.com:5938, Connection 1
+2016/10/14 14:41:56.045   666 0xfeebd210 G0   UpdateState teamViewerID=0 isLoggedIn=0
+2016/10/14 14:41:56.046   666 0xfeebd210 G0+  Send Status to GUI: {"command":"status","isLoggedIn":false,"teamviewerId":0}
+
+2016/10/14 14:41:56.049   666 0xfeebd210 G0   Received Control_InitIPC_Response processtype=1
+2016/10/14 14:41:56.049   666 0xfeebd210 G0   Received Control_InitIPC_Response runningProcesses=3
+2016/10/14 14:41:56.050   666 0xfeebd210 G0   Control_InitIPC_Response: all processes 3 completely initialized
+2016/10/14 14:41:56.050   666 0xfeebd210 G0+  InterProcess: Sending 1 queued command(s).
+2016/10/14 14:41:56.051   666 0xfeebc5f0 G0+  ConfigurationControllerImpl::TriggerRequest(): Not ready for requests, state is 0
+2016/10/14 14:41:56.051   666 0xfeebd210 G0+  ConfigurationHub::HandleIPCConnect(): renew feature registrations
+2016/10/14 14:41:56.051   666 0xfeebd210 G0   UpdateState teamViewerID=577553114 isLoggedIn=0
+2016/10/14 14:41:56.051   666 0xfeebd210 G0+  Send Status to GUI: {"command":"status","isLoggedIn":false,"teamviewerId":577553114}
+
+2016/10/14 14:41:56.052   666 0xfeebc5f0 G0+  ConfigurationControllerImpl::TriggerRequest(): Not ready for requests, state is 0
+2016/10/14 14:41:56.161   666 0xfeebcc00 G0+  CTcpConnectionBase[1]::HandleConnect(): Connect to ping3.teamviewer.com:5938, IP: 37.252.227.51 was successful.
+2016/10/14 14:41:56.271   666 0xfeebc5f0 G0   NetWatchdog: Ping successful! Port: 5938
+2016/10/14 14:41:56.272   666 0xfeebc5f0 G0   NetWatchdog: Internet is now connected
+2016/10/14 14:41:56.272   666 0xfeebc5f0 G0   CKeepAliveClientClient::HandlePing(): success
+2016/10/14 14:41:56.272   666 0xfeebc5f0 G0+  IsValidOEMID: oemid:"" length:"0"
+2016/10/14 14:41:56.273   666 0xfeebc5f0 G0   Activating Router carrier
+2016/10/14 14:41:56.273   666 0xfeebc5f0 G0   CProcessCommandHandlerMasterConnect[2]::CreateMasterConnect(): master11.teamviewer.com:5938, Connection 2, proxy=''
+2016/10/14 14:41:56.274   666 0xfeebcc00 G0+  CTcpConnectionBase[1]::HandleReadError(): Socket gracefully closed. ClientID: 0
+2016/10/14 14:41:56.399   666 0xfeebcc00 G0+  CTcpConnectionBase[2]::HandleConnect(): Connect to master11.teamviewer.com:5938, IP: 178.77.120.100 was successful.
+2016/10/14 14:41:56.399   666 0xfeebcc00 G0   CProcessCommandHandlerMasterConnect[2]::HandleMasterConnect(): Sending MasterCommand addonchannels=0&client=TV&f=Login&gw=0&gwlevel=400&hideonlinestatus=0&httpout=1&ic=1022086039&id=577553114&iguid={469b98e6-dbae-4628-8df4-c81352afc26b}&language=en&licensetype=10000&mid=c1a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf&midf=64&midhistory=c0a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf|c1a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf&midv=1&noofactivekeepalive=0&os=ChromeOS&port443out=0&rhash={4fd8748c-00d3-47d7-9f45-83d2dae7ace0}&runtime=0&smidv=1&sro=0&supportedfeatures=82738141&tcpout=1&usednsnames=1&v=11.0.55500 
+2016/10/14 14:41:56.582   666 0xfeebcc00 G0   CProcessCommandHandlerMasterConnect[2]::ReceivedMasterResponse(): Received MasterCommand OK_10000_-_2__server3303.teamviewer.com:5938_35091_1_-1_0.0.0.0__178.77.120.101_178.77.120.100_0_577553114_1_0_0_0_64749433__server25305.teamviewer.com,server21108.teamviewer.com,server20104.teamviewer.com,server21002.teamviewer.com,server24709.teamviewer.com,server3303.teamviewer.com,server18109.teamviewer.com,server18209.teamviewer.com,server18302.teamviewer.com,server18405.teamviewer.com_ef/bAwA=
+2016/10/14 14:41:56.582   666 0xfeebbfe0 G0+  CTcpConnectionBase[2]::HandleReadError(): Socket gracefully closed. ClientID: 0
+2016/10/14 14:41:56.583   666 0xfeebbfe0 G0+  IConnection[2]::SendDataAsio(): Connection is already closing. Discarding 9 Bytes
+2016/10/14 14:41:56.583   666 0xfeebcc00 G0   CTerminalServer::UpdateSessionInfo clientID=577553114
+2016/10/14 14:41:56.583   666 0xfeebcc00 G0   CInterProcessNetwork::SetDyngateIDforSession() id=577553114 session=0 ptype=2
+2016/10/14 14:41:56.583   666 0xfeebcc00 G0!  CKeepAliveClient::HandleLoginUserAnswer(): KeepAliveServer server3303.teamviewer.com:5938
+2016/10/14 14:41:56.583   666 0xfeebbfe0 G0   UpdateState teamViewerID=577553114 isLoggedIn=0
+2016/10/14 14:41:56.584   666 0xfeebbfe0 G0+  Send Status to GUI: {"command":"status","isLoggedIn":false,"teamviewerId":577553114}
+
+2016/10/14 14:41:56.584   666 0xfeebcc00 G0   Activating Router carrier
+2016/10/14 14:41:56.584   666 0xfeebcc00 G0+  CProcessCommandHandlerKeepAliveClient[3]::CreateKeepaliveChannel(): server3303.teamviewer.com:5938 Connection 3 
+2016/10/14 14:41:56.584   666 0xfeebcc00 G0   TcpCarrierBase[2]::HandleWrite(): Error 3 (Connection is already closing), count 1
+2016/10/14 14:41:56.730   666 0xfeebc5f0 G0+  CTcpConnectionBase[3]::HandleConnect(): Connect to server3303.teamviewer.com:5938, IP: 209.58.129.78 was successful.
+2016/10/14 14:41:56.731   666 0xfeebc5f0 G0   KeepAliveSessionOutgoing::ConnectSuccessHandler(): KeepAliveConnect to server3303.teamviewer.com successful
+2016/10/14 14:41:56.890   666 0xfeebc5f0 G0+  CProcessCommandHandlerKeepAlive[3]::StartRouterPing(): Router ping started with 240993985 (209.58.129.78) 
+2016/10/14 14:41:56.891   666 0xfeebc5f0 G0   KeepAliveSessionOutgoing::KeepAliveChannelInitialized(): KeepAliveConnection to server3303.teamviewer.com initialized
+2016/10/14 14:41:56.891   666 0xfeebc5f0 G0!! KeepAliveSession::KeepAliveChannelInitialized(): KeepAlive-Connection initialized with ID 240993985 (IP: 209.58.129.78), SendQueue 0 (0 Bytes), SendIndex 0, AckIndex 0, RemoteSessionID 3
+2016/10/14 14:41:56.892   666 0xfeebc5f0 G0!  KeepAliveSession::SendCompleteQueue(): SendQueue: 0 (0 Bytes), RemoteSession 3 (ClientID 240993985), Time: 0 ms
+2016/10/14 14:41:56.969   666 0xfeebd210 G0   CProcessCommandHandlerKeepAliveClient[3]::ReceivedCmdBuddy(): CC=3 CT=35
+2016/10/14 14:41:56.970   666 0xfeebd210 G0+  CProcessCommandHandlerKeepAlive[3]::CmdPingRouter: Router Pong Received with following Hops: 577553114 240993985, Time 79 ms
+2016/10/14 14:41:56.970   666 0xfeebd210 G0   TVRouterClock Schedule next request in 0 seconds
+2016/10/14 14:41:56.971   666 0xfeebd210 G0+  TVRouterClock: new connection available
+2016/10/14 14:41:56.971   666 0xfeebd210 G0   TVRouterClock Schedule next request in 0 seconds
+2016/10/14 14:41:56.971   666 0xfeebd210 G0   TVRouterClock Schedule next request in 0 seconds
+2016/10/14 14:41:56.972   666 0xfeebd210 G0+  IsValidOEMID: oemid:"" length:"0"
+2016/10/14 14:41:56.972   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting DyngateID to 577553114
+2016/10/14 14:41:56.972   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting License to 10000
+2016/10/14 14:41:56.973   666 0xfeebc5f0 G0+  TVRouterClock::RequestRouterTime(): Requesting Router Time
+2016/10/14 14:41:56.974   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting SupportedFeatures1 to 82738141
+2016/10/14 14:41:56.974   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting SupportedFeatures2 to 10248
+2016/10/14 14:41:56.975   666 0xfeebbfe0 G0+  TVRouterClock::RequestRouterTime(): Requesting Router Time
+2016/10/14 14:41:56.975   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting UserLanguage to "en"
+2016/10/14 14:41:56.975   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting OEMID to ""
+2016/10/14 14:41:56.976   666 0xfeebd210 G0   UpdateState teamViewerID=577553114 isLoggedIn=1
+2016/10/14 14:41:56.977   666 0xfeebd210 G0+  Send Status to GUI: {"command":"status","isLoggedIn":true,"teamviewerId":577553114}
+
+2016/10/14 14:41:57.056   666 0xfeebc5f0 G0   TVRouterClock: received router time: 20161014T184155.308724
+2016/10/14 14:41:57.057   666 0xfeebc5f0 G0   TVRouterClock Schedule next request in 43200 seconds
+2016/10/14 14:41:57.080   666 0xfeebd210 G0   Incoming Chrome Command: 'closeSession'
+2016/10/14 14:41:57.080   666 0xfeebd210 G0!  Unhandled UICommand 'closeSession'
+2016/10/14 14:41:57.080   666 0xfeebd210 G0   Incoming Chrome Command: 'logMessage'
+2016/10/14 14:41:57.080   666 0xfeebd210 G0   GUI: app window closed
+2016/10/14 14:41:57.080   666 0xfeebc5f0 G0   Incoming Chrome Command: 'logMessage'
+2016/10/14 14:41:57.080   666 0xfeebc5f0 G0   GUI: closing session
+2016/10/19 17:45:24.749   666 0xfeebd210 G0   Logger started.
+2016/10/19 13:45:24.760   666 0xfeebd210 G0+  Thread: IOServiceWorker_0_3
+2016/10/19 13:45:24.760   666 0xfeebd210 G0   Timezone: 4
+2016/10/19 13:45:24.760   666 0xfeebd210 G0+  Thread: IOServiceWorker_0_1
+2016/10/19 13:45:24.760   666 0xfeebd210 G0+  Thread: IOServiceWorker_0_0
+2016/10/19 13:45:24.765   666 0xfeebd210 G0+  Thread: IOServiceWorker_0_2
+2016/10/19 13:45:24.780   666 0xfeebd210 G0   Incoming Chrome Command: 'systemInfos'
+2016/10/19 13:45:24.877   666 0xfeebd210 G0   InterProcessBase::SecureNetwork created
+2016/10/19 13:45:24.882   666 0xfeebd210 G0+  LoginAccount::TryAutoLogin() called
+2016/10/19 13:45:24.882   666 0xfeebd210 G0   OS = linux
+2016/10/19 13:45:24.882   666 0xfeebd210 G0   PlatformArch = x86-64
+2016/10/19 13:45:24.882   666 0xfeebd210 G0   NaclArch = x86-64
+2016/10/19 13:45:24.882   666 0xfeebd210 G0   TotalMemory = 7865MB
+2016/10/19 13:45:24.882   666 0xfeebd210 G0   AvailableMemory = 2111MB
+2016/10/19 13:45:24.883   666 0xfeebd210 G0   NumOfProcessors = 4
+2016/10/19 13:45:24.883   666 0xfeebd210 G0   CpuArch = x86_64
+2016/10/19 13:45:24.883   666 0xfeebd210 G0   ModelName = Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz
+2016/10/19 13:45:24.888   666 0xfe92aeb0 G0+  Thread: TimedCallback
+2016/10/19 13:45:24.896   666 0xfeebd210 G0   UpdateOnlineState newOnlineValue 0
+
+
+
+Start:              2016/10/19 13:45:25.099
+Version:            11.0.55500 
+ID:                 577553114
+Loglevel:           Verbose (70)
+License:            10000
+Server:             master11.teamviewer.com
+IC:                 1022086039
+CPU:                Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz
+OS:                 ChromeOS (64-bit)
+IP:                 255.255.255.255
+MID:                c1a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf
+MIDv:               1
+Proxy-Settings:     Type=1 IP= User=
+
+2016/10/19 13:45:25.120   666 0xfeebd210 G0+  IsValidOEMID: oemid:"" length:"0"
+2016/10/19 13:45:25.121   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting VersionMajor to 11
+2016/10/19 13:45:25.121   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting VersionMinor to 0
+2016/10/19 13:45:25.121   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting VersionBuildnumber to 55500
+2016/10/19 13:45:25.122   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting VersionExtra to ""
+2016/10/19 13:45:25.122   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting Environment to 0
+2016/10/19 13:45:25.122   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting OEMID to ""
+2016/10/19 13:45:25.123   666 0xfeebd210 G0   UpdateOnlineState newOnlineValue 0
+2016/10/19 13:45:25.123   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting TVEdition to 1
+2016/10/19 13:45:25.123   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting Country to ""
+2016/10/19 13:45:25.123   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting OperatingSystem to 9
+2016/10/19 13:45:25.123   666 0xfeebd210 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting Platform to "pnacl"
+2016/10/19 13:45:25.124   666 0xfeebd210 G0   Starting intra process connection
+2016/10/19 13:45:25.124   666 0xfeebcc00 G0+  CInterProcessNetwork::Received_Control_InitIPC: Connecting process: 666
+2016/10/19 13:45:25.127   666 0xfeebbfe0 G0   UpdateState teamViewerID=0 isLoggedIn=0
+2016/10/19 13:45:25.127   666 0xfeebbfe0 G0+  Send Status to GUI: {"command":"status","isLoggedIn":false,"teamviewerId":0}
+
+2016/10/19 13:45:25.128   666 0xfeebcc00 G0+  CInterProcessNetwork::Received_Control_InitIPC: Send InitIPC_Response to process: 666
+2016/10/19 13:45:25.128   666 0xfeebcc00 G0   CInterProcessNetwork::SetDyngateIDforSession() id=577553114 session=0 ptype=2
+2016/10/19 13:45:25.129   666 0xfeebcc00 G0   UpdateOnlineState newOnlineValue 1
+2016/10/19 13:45:25.130   666 0xfe6a7bf0 G0+  Thread: OnlineInternal_Network
+2016/10/19 13:45:25.130   666 0xfeebbfe0 G0   Received Control_InitIPC_Response processtype=1
+2016/10/19 13:45:25.130   666 0xfeebbfe0 G0   Received Control_InitIPC_Response runningProcesses=3
+2016/10/19 13:45:25.130   666 0xfeebbfe0 G0   Control_InitIPC_Response: all processes 3 completely initialized
+2016/10/19 13:45:25.131   666 0xfeebbfe0 G0+  InterProcess: Sending 1 queued command(s).
+2016/10/19 13:45:25.131   666 0xfeebcc00 G0+  ConfigurationControllerImpl::TriggerRequest(): Not ready for requests, state is 0
+2016/10/19 13:45:25.131   666 0xfeebbfe0 G0+  ConfigurationHub::HandleIPCConnect(): renew feature registrations
+2016/10/19 13:45:25.132   666 0xfeebd210 G0+  ConfigurationControllerImpl::TriggerRequest(): Not ready for requests, state is 0
+2016/10/19 13:45:25.132   666 0xfeebbfe0 G0   UpdateState teamViewerID=577553114 isLoggedIn=0
+2016/10/19 13:45:25.132   666 0xfeebbfe0 G0+  Send Status to GUI: {"command":"status","isLoggedIn":false,"teamviewerId":577553114}
+
+2016/10/19 13:45:25.133   666 0xfe6a7bf0 G0   TeamViewer is going online!
+2016/10/19 13:45:25.133   666 0xfeebcc00 G0   CKeepAliveClientClient::DoReconnectInternal: doing nothing, state = 0
+2016/10/19 13:45:25.136   666 0xfeebd210 G0   Activating Router carrier
+2016/10/19 13:45:25.136   666 0xfeebd210 G0+  CProcessCommandHandlerPing[1]::CreatePinger(): ping3.teamviewer.com:5938, Connection 1
+2016/10/19 13:45:25.284   666 0xfeebc5f0 G0+  CTcpConnectionBase[1]::HandleConnect(): Connect to ping3.teamviewer.com:5938, IP: 37.252.248.78 was successful.
+2016/10/19 13:45:25.429   666 0xfeebc5f0 G0   NetWatchdog: Ping successful! Port: 5938
+2016/10/19 13:45:25.429   666 0xfeebc5f0 G0   NetWatchdog: Internet is now connected
+2016/10/19 13:45:25.429   666 0xfeebc5f0 G0   CKeepAliveClientClient::HandlePing(): success
+2016/10/19 13:45:25.430   666 0xfeebc5f0 G0+  IsValidOEMID: oemid:"" length:"0"
+2016/10/19 13:45:25.432   666 0xfeebc5f0 G0   Activating Router carrier
+2016/10/19 13:45:25.433   666 0xfeebc5f0 G0   CProcessCommandHandlerMasterConnect[2]::CreateMasterConnect(): master11.teamviewer.com:5938, Connection 2, proxy=''
+2016/10/19 13:45:25.434   666 0xfeebcc00 G0+  CTcpConnectionBase[1]::HandleReadError(): Socket gracefully closed. ClientID: 0
+2016/10/19 13:45:25.561   666 0xfeebbfe0 G0+  CTcpConnectionBase[2]::HandleConnect(): Connect to master11.teamviewer.com:5938, IP: 178.77.120.100 was successful.
+2016/10/19 13:45:25.562   666 0xfeebbfe0 G0   CProcessCommandHandlerMasterConnect[2]::HandleMasterConnect(): Sending MasterCommand addonchannels=0&client=TV&f=Login&gw=0&gwlevel=400&hideonlinestatus=0&httpout=1&ic=1022086039&id=577553114&iguid={469b98e6-dbae-4628-8df4-c81352afc26b}&language=en&licensetype=10000&mid=c1a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf&midf=64&midhistory=c0a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf|c1a4e118acf6674d0c84bf92fe69cd33d5a8f20aacdf4346d7830fc627e4081cdf&midv=1&noofactivekeepalive=0&os=ChromeOS&port443out=0&rhash={c5e526fe-5814-40e0-8adb-7dac8424a1e3}&runtime=0&smidv=1&sro=0&supportedfeatures=82738141&tcpout=1&usednsnames=1&v=11.0.55500 
+2016/10/19 13:45:25.693   666 0xfeebbfe0 G0   CProcessCommandHandlerMasterConnect[2]::ReceivedMasterResponse(): Received MasterCommand OK_10000_-_2__server20106.teamviewer.com:5938_35091_1_-1_0.0.0.0__178.77.120.101_178.77.120.100_0_577553114_1_0_0_0_64749433__server26305.teamviewer.com,server20106.teamviewer.com,server21003.teamviewer.com,server24708.teamviewer.com,server3304.teamviewer.com,server18106.teamviewer.com,server18203.teamviewer.com,server18306.teamviewer.com,server18408.teamviewer.com_ef/bAwA=
+2016/10/19 13:45:25.694   666 0xfeebd210 G0+  CTcpConnectionBase[2]::HandleReadError(): Socket gracefully closed. ClientID: 0
+2016/10/19 13:45:25.694   666 0xfeebd210 G0+  IConnection[2]::SendDataAsio(): Connection is already closing. Discarding 9 Bytes
+2016/10/19 13:45:25.695   666 0xfeebbfe0 G0   CTerminalServer::UpdateSessionInfo clientID=577553114
+2016/10/19 13:45:25.695   666 0xfeebbfe0 G0   CInterProcessNetwork::SetDyngateIDforSession() id=577553114 session=0 ptype=2
+2016/10/19 13:45:25.695   666 0xfeebbfe0 G0!  CKeepAliveClient::HandleLoginUserAnswer(): KeepAliveServer server20106.teamviewer.com:5938
+2016/10/19 13:45:25.695   666 0xfeebd210 G0   UpdateState teamViewerID=577553114 isLoggedIn=0
+2016/10/19 13:45:25.696   666 0xfeebd210 G0+  Send Status to GUI: {"command":"status","isLoggedIn":false,"teamviewerId":577553114}
+
+2016/10/19 13:45:25.696   666 0xfeebbfe0 G0   Activating Router carrier
+2016/10/19 13:45:25.696   666 0xfeebbfe0 G0+  CProcessCommandHandlerKeepAliveClient[3]::CreateKeepaliveChannel(): server20106.teamviewer.com:5938 Connection 3 
+2016/10/19 13:45:25.697   666 0xfeebbfe0 G0   TcpCarrierBase[2]::HandleWrite(): Error 3 (Connection is already closing), count 1
+2016/10/19 13:45:25.756   666 0xfeebcc00 G0+  CTcpConnectionBase[3]::HandleConnect(): Connect to server20106.teamviewer.com:5938, IP: 162.220.223.9 was successful.
+2016/10/19 13:45:25.757   666 0xfeebcc00 G0   KeepAliveSessionOutgoing::ConnectSuccessHandler(): KeepAliveConnect to server20106.teamviewer.com successful
+2016/10/19 13:45:25.808   666 0xfeebcc00 G0+  CProcessCommandHandlerKeepAlive[3]::StartRouterPing(): Router ping started with 356625382 (162.220.223.9) 
+2016/10/19 13:45:25.809   666 0xfeebcc00 G0   KeepAliveSessionOutgoing::KeepAliveChannelInitialized(): KeepAliveConnection to server20106.teamviewer.com initialized
+2016/10/19 13:45:25.809   666 0xfeebcc00 G0!! KeepAliveSession::KeepAliveChannelInitialized(): KeepAlive-Connection initialized with ID 356625382 (IP: 162.220.223.9), SendQueue 0 (0 Bytes), SendIndex 0, AckIndex 0, RemoteSessionID 3
+2016/10/19 13:45:25.809   666 0xfeebcc00 G0!  KeepAliveSession::SendCompleteQueue(): SendQueue: 0 (0 Bytes), RemoteSession 3 (ClientID 356625382), Time: 0 ms
+2016/10/19 13:45:25.835   666 0xfeebc5f0 G0   CProcessCommandHandlerKeepAliveClient[3]::ReceivedCmdBuddy(): CC=3 CT=35
+2016/10/19 13:45:25.835   666 0xfeebc5f0 G0+  CProcessCommandHandlerKeepAlive[3]::CmdPingRouter: Router Pong Received with following Hops: 577553114 356625382, Time 27 ms
+2016/10/19 13:45:25.836   666 0xfeebc5f0 G0   TVRouterClock Schedule next request in 0 seconds
+2016/10/19 13:45:25.836   666 0xfeebc5f0 G0+  TVRouterClock: new connection available
+2016/10/19 13:45:25.837   666 0xfeebd210 G0+  TVRouterClock::RequestRouterTime(): Requesting Router Time
+2016/10/19 13:45:25.837   666 0xfeebc5f0 G0   TVRouterClock Schedule next request in 0 seconds
+2016/10/19 13:45:25.837   666 0xfeebc5f0 G0   TVRouterClock Schedule next request in 0 seconds
+2016/10/19 13:45:25.838   666 0xfeebc5f0 G0+  IsValidOEMID: oemid:"" length:"0"
+2016/10/19 13:45:25.838   666 0xfeebc5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting DyngateID to 577553114
+2016/10/19 13:45:25.839   666 0xfeebc5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting License to 10000
+2016/10/19 13:45:25.839   666 0xfeebc5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting SupportedFeatures1 to 82738141
+2016/10/19 13:45:25.839   666 0xfeebc5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting SupportedFeatures2 to 10248
+2016/10/19 13:45:25.839   666 0xfeebc5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting UserLanguage to "en"
+2016/10/19 13:45:25.840   666 0xfeebc5f0 G0+  ConfigurationHub::SetDecisionDataValueInternal(0): Setting OEMID to ""
+2016/10/19 13:45:25.841   666 0xfeebd210 G0   UpdateState teamViewerID=577553114 isLoggedIn=1
+2016/10/19 13:45:25.841   666 0xfeebd210 G0+  Send Status to GUI: {"command":"status","isLoggedIn":true,"teamviewerId":577553114}
+
+2016/10/19 13:45:25.869   666 0xfeebd210 G0   TVRouterClock: received router time: 20161019T174523.580374
+2016/10/19 13:45:25.870   666 0xfeebd210 G0   TVRouterClock Schedule next request in 43200 seconds
+2016/10/19 13:45:26.280   666 0xfeebc5f0 G0   AsyncMessaging::UnregisterAtAsyncMessageProvider(): Unregister successful
+2016/10/19 13:45:26.306   666 0xfeebcc00 G0+  ConfigurationControllerImpl::TriggerRequest(): Sending out request for session 0 with features {1,5}
+2016/10/19 13:45:26.337   666 0xfeebcc00 G0+  ConfigurationControllerImpl::ProcessConfigurationResponse(): configuration for session 0 contains 2 features
+2016/10/19 13:45:26.337   666 0xfeebcc00 G0+  ConfigurationControllerImpl::ParseReceivedConfigurations(): configuration for session 0, feature 1, contains 1 settings
+2016/10/19 13:45:26.339   666 0xfeebcc00 G0+  ConfigurationControllerImpl::ParseReceivedConfigurations(): configuration for session 0, feature 5, contains 2 settings
+2016/10/19 13:45:26.340   666 0xfeebcc00 G0+  ConfigurationControllerImpl::HandleConfiguration(): Ready for next request
+2016/10/19 13:45:26.340   666 0xfeebcc00 G0+  ConfigurationControllerImpl::TriggerRequest(): No more requests in queue
+2016/10/19 13:46:08.567   666 0xfeebd210 G0   Incoming Chrome Command: 'closeSession'
+2016/10/19 13:46:08.567   666 0xfeebd210 G0!  Unhandled UICommand 'closeSession'
+2016/10/19 13:46:08.567   666 0xfeebd210 G0   Incoming Chrome Command: 'logMessage'
+2016/10/19 13:46:08.567   666 0xfeebd210 G0   GUI: app window closed
+2016/10/19 13:46:08.567   666 0xfeebd210 G0   Incoming Chrome Command: 'logMessage'
+2016/10/19 13:46:08.568   666 0xfeebd210 G0   GUI: closing session

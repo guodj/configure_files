@@ -3,24 +3,23 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+Plugin 'gmarik/Vundle.vim'
 
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
 
 " work with ctags to open a file in an easy way 
-" Plugin 'taglist.vim' 
+Plugin 'taglist.vim' 
 Plugin 'majutsushi/tagbar'
 
 " Perform all your vim insert mode completions easily 
 Plugin 'ervandew/supertab'
-" Plugin 'Valloric/YouCompleteMe'
 
 " Syntax checking hacks for vim
 " Plugin 'scrooloose/syntastic'
@@ -176,7 +175,7 @@ set tm=500
 syntax enable
 syntax on
 
-set background=dark
+set background=light
 colorscheme  solarized
 
 " Set extra options when running in GUI mode
@@ -454,23 +453,23 @@ inoremap <C-u> <esc>gUiwea
 set t_ZH=[3m
 set t_ZR=[23m
 "highlight Comment cterm=italic
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
+"highlight OverLength ctermbg=gray  ctermfg=white guibg=#592929
+"match OverLength /\%81v.\+/
 
 "-------------------------------------------------------------------------------
 " For matlab
 source $VIMRUNTIME/macros/matchit.vim
 "-------------------------------------------------------------------------------
 "For taglist or tagbar
-" map <silent> <F3> :TlistToggle<CR>
-" let Tlist_Ctags_Cmd='ctags'
-" let Tlist_Show_One_File=1
-" let Tlist_Exit_Onlywindow=1
-" let Tlist_Use_Right_Window=1
-" let Tlist_File_Fold_Auto_Close=1
-" let Tlist_Inc_Winwidth=0
-" let Tlist_Process_File_Always=0
-" set tags=tags;
+map <silent> <F3> :TlistToggle<CR>
+let Tlist_Ctags_Cmd='ctags'
+let Tlist_Show_One_File=1
+let Tlist_Exit_Onlywindow=1
+let Tlist_Use_Right_Window=1
+let Tlist_File_Fold_Auto_Close=1
+let Tlist_Inc_Winwidth=0
+let Tlist_Process_File_Always=0
+set tags=tags;
 nmap <F3> :TagbarToggle<CR>
 "autocmd vimenter * Tagbar 
 "-------------------------------------------------------------------------------

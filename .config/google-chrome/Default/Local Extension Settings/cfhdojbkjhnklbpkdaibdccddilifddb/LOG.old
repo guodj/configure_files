@@ -1,0 +1,14 @@
+2016/10/19-13:45:23.766 2868 Reusing MANIFEST /home/guod/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2016/10/19-13:45:23.766 2868 Recovering log #186
+2016/10/19-13:45:23.781 2868 Level-0 table #189: started
+2016/10/19-13:45:23.814 2868 Level-0 table #189: 1862863 bytes OK
+2016/10/19-13:45:23.822 2868 Delete type=0 #186
+2016/10/19-13:45:23.822 2993 Compacting 4@0 + 1@1 files
+2016/10/19-13:45:23.918 2993 Generated table #191@0: 3 keys, 1863124 bytes
+2016/10/19-13:45:23.918 2993 Compacted 4@0 + 1@1 files => 1863124 bytes
+2016/10/19-13:45:23.924 2993 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/10/19-13:45:23.924 2993 Delete type=2 #183
+2016/10/19-13:45:23.924 2993 Delete type=2 #185
+2016/10/19-13:45:23.924 2993 Delete type=2 #187
+2016/10/19-13:45:23.925 2993 Delete type=2 #189
+2016/10/19-13:45:23.925 2993 Delete type=2 #180

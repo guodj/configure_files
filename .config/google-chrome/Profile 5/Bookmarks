@@ -1,0 +1,170 @@
+{
+   "checksum": "9e7243f5eecd0442b9d4be0de84c5544",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13070593938000000",
+            "id": "6",
+            "name": "JGR",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://agupubs.onlinelibrary.wiley.com/agu/jgr/journal/10.1002/(ISSN)2169-9402/"
+         }, {
+            "date_added": "13073616955000000",
+            "id": "7",
+            "name": "GRL",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://agupubs.onlinelibrary.wiley.com/agu/journal/10.1002/(ISSN)1944-8007/"
+         }, {
+            "date_added": "13087449386000000",
+            "id": "8",
+            "meta_info": {
+               "last_visited_desktop": "13130697547901474"
+            },
+            "name": "PDF",
+            "sync_transaction_version": "15",
+            "type": "url",
+            "url": "http://smallpdf.com/cn"
+         }, {
+            "date_added": "13070289341000000",
+            "id": "9",
+            "meta_info": {
+               "last_visited_desktop": "13134749212692014"
+            },
+            "name": "omni",
+            "sync_transaction_version": "59",
+            "type": "url",
+            "url": "http://omniweb.gsfc.nasa.gov/"
+         }, {
+            "date_added": "13074740855000000",
+            "id": "10",
+            "meta_info": {
+               "last_visited_desktop": "13132782535650151"
+            },
+            "name": "地磁",
+            "sync_transaction_version": "40",
+            "type": "url",
+            "url": "http://wdc.kugi.kyoto-u.ac.jp/index.html"
+         }, {
+            "date_added": "13095504276000000",
+            "id": "11",
+            "name": "Sci-Hub",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://sci-hub.bz/"
+         }, {
+            "date_added": "13116591386973516",
+            "id": "12",
+            "name": "上海集训部",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://jxb.shisu.edu.cn/"
+         }, {
+            "date_added": "13118345406953749",
+            "id": "13",
+            "name": "留学服务中心",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://new.chinesehighway.com/user/workspace/gps/listGps.do#"
+         }, {
+            "date_added": "13118810754546965",
+            "id": "15",
+            "meta_info": {
+               "last_visited_desktop": "13134157408016411"
+            },
+            "name": "CLaSP",
+            "sync_transaction_version": "55",
+            "type": "url",
+            "url": "http://clasp.engin.umich.edu/"
+         }, {
+            "date_added": "13118964994963433",
+            "id": "16",
+            "name": "MGU",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://clasp.engin.umich.edu/academics/resources/mgu"
+         }, {
+            "date_added": "13119131539291761",
+            "id": "17",
+            "meta_info": {
+               "last_visited_desktop": "13133398441359406"
+            },
+            "name": "Insurance",
+            "sync_transaction_version": "51",
+            "type": "url",
+            "url": "https://csprod.dsc.umich.edu/psp/csprodnonop/EMPLOYEE/HRMS/c/SA_LEARNER_SERVICES.SSF_SS_CHRGS_DUE.GBL?PORTALPARAM_PTCNAV=HC_SSF_SS_CHRGS_DUE&EOPP.SCNode=HRMS&EOPP.SCPortal=EMPLOYEE&EOPP.SCName=CO_EMPLOYEE_SELF_SERVICE&EOPP.SCLabel=Campus%20Finances&EOPP.SCFName=HCCC_FINANCES&EOPP.SCSecondary=true&EOPP.SCPTfname=HCCC_FINANCES&FolderPath=PORTAL_ROOT_OBJECT.CO_EMPLOYEE_SELF_SERVICE.HCCC_FINANCES.HC_SSF_SS_CHRGS_DUE&IsFolder=false"
+         }, {
+            "date_added": "13124216698667906",
+            "id": "18",
+            "meta_info": {
+               "last_visited_desktop": "13133368023239629"
+            },
+            "name": "Perks",
+            "sync_transaction_version": "44",
+            "type": "url",
+            "url": "http://qq.corporateperks.com/marketplace/ftusimple/usource/fduhp"
+         }, {
+            "date_added": "13128723102813490",
+            "id": "21",
+            "meta_info": {
+               "last_visited_desktop": "13130966036524778"
+            },
+            "name": "2017 CISM Summer School | High Altitude Observatory",
+            "sync_transaction_version": "18",
+            "type": "url",
+            "url": "https://www2.hao.ucar.edu/CISM-Summer-School"
+         }, {
+            "date_added": "13129841007000906",
+            "id": "24",
+            "name": "AGU text requirements",
+            "sync_transaction_version": "13",
+            "type": "url",
+            "url": "http://publications.agu.org/author-resource-center/text-requirements/#figures"
+         }, {
+            "date_added": "13132074238831706",
+            "id": "28",
+            "meta_info": {
+               "last_visited_desktop": "13134227602843133"
+            },
+            "name": "Pronounce Names - Dictionary of Name Pronunciation, How to say or pronounce names, Name pronunciation website",
+            "sync_transaction_version": "56",
+            "type": "url",
+            "url": "http://www.pronouncenames.com/"
+         }, {
+            "date_added": "13134711815649122",
+            "id": "31",
+            "meta_info": {
+               "last_visited_desktop": "13134712865954899"
+            },
+            "name": "cedar",
+            "sync_transaction_version": "57",
+            "type": "url",
+            "url": "http://cedarweb.vsp.ucar.edu/wiki/index.php/2017_Workshop:Main#General_Information"
+         } ],
+         "date_added": "13126721762795604",
+         "date_modified": "13134711815649122",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13126721762795607",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "59",
+      "synced": {
+         "children": [  ],
+         "date_added": "13126721762795608",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
