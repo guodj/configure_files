@@ -1,1 +1,0 @@
-Interfaces.ContentScriptInterface=function(){var a=Interfaces.Definition,b=Interfaces.TYPE_FUNCTION;return{LPFrame:{css:new a(b,{include:"contentScriptDialog"}),close:new a(b),openDialog:new a(b),openFrame:new a(b),getDialogParams:new a(b,{include:"contentScriptDialog"})}}}();

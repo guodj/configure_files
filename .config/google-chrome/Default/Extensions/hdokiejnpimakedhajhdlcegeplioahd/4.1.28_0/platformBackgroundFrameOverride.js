@@ -1,1 +1,0 @@
-(function(a){var b;a.requestFrameworkInitializer=function(a){b=chrome.runtime.connect("",{name:"requestPortBackgroundFrame"});b.onMessage.addListener(a);return function(a){b.postMessage(a)}}})(LPPlatform);

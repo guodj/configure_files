@@ -1,1 +1,0 @@
-window["framework"] = new AddonsFramework({"version":"4.14.4.1","name":"Ebates Cash Back","description":"Hot Deals, Top Stores, Your Account Information and Cash Back are all just one click away.","url":"http://ebates.com/","author":"Ebates Performance Marketing, Inc.","optionsPage":"html/settings.html","AddonsFrameworkVersion":0});
