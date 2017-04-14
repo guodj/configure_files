@@ -15,14 +15,10 @@ Plugin 'gmarik/Vundle.vim'
 " plugin on GitHub repo
 
 " work with ctags to open a file in an easy way 
-Plugin 'taglist.vim' 
 Plugin 'majutsushi/tagbar'
 
 " Perform all your vim insert mode completions easily 
-Plugin 'ervandew/supertab'
-
-" Syntax checking hacks for vim
-" Plugin 'scrooloose/syntastic'
+" Plugin 'ervandew/supertab'
 
 " A tree explorer plugin for vim
 Plugin 'scrooloose/nerdtree'
@@ -30,8 +26,14 @@ Plugin 'scrooloose/nerdtree'
 " color schems
 Plugin 'altercation/vim-colors-solarized'
 
-" A powerful status line
+" A powerful status line 
 Plugin 'bling/vim-airline'
+
+" CODE-COMPLETION ENGINE FOR VIM
+Plugin 'valloric/youcompleteme'
+
+" Fuzzy file, buffer, mru, tag, etc finder
+Plugin 'kien/ctrlp.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -175,8 +177,9 @@ set tm=500
 syntax enable
 syntax on
 
-set background=light
+set background=dark
 colorscheme  solarized
+" colorscheme  desert
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -335,10 +338,10 @@ autocmd BufWrite *.coffee :call DeleteTrailingWS()
 vnoremap <silent> gv :call VisualSelection('gv')<CR>
 
 " Open vimgrep and put the cursor in the right position
-map <leader>g :vimgrep // **/*.<left><left><left><left><left><left><left>
+map <leader>g :vimgrep //j **/*.<left><left><left><left><left><left><left><left>
 
 " Vimgreps in the current file
-map <leader><space> :vimgrep // <C-R>%<C-A><right><right><right><right><right><right><right><right><right>
+map <leader><space> :vimgrep //j <C-R>%<C-A><right><right><right><right><right><right><right><right><right>
 
 " When you press <leader>r you can search and replace the selected text
 vnoremap <silent> <leader>r :call VisualSelection('replace')<CR>
@@ -403,7 +406,7 @@ function! VisualSelection(direction) range
     if a:direction == 'b'
         execute "normal ?" . l:pattern . "^M"
     elseif a:direction == 'gv'
-        call CmdLine("vimgrep " . '/'. l:pattern . '/' . ' **/*.')
+        call CmdLine("vimgrep " . '/'. l:pattern . '/j' . ' **/*.')
     elseif a:direction == 'replace'
         call CmdLine("%s" . '/'. l:pattern . '/')
     elseif a:direction == 'f'
@@ -450,50 +453,47 @@ set nu
 set fileencodings=ucs-bom,utf-8,gb2312
 set showcmd
 inoremap <C-u> <esc>gUiwea
+
+" comment italic
 set t_ZH=[3m
 set t_ZR=[23m
-"highlight Comment cterm=italic
+highlight Comment cterm=italic
+
+set mouse=a
 "highlight OverLength ctermbg=gray  ctermfg=white guibg=#592929
 "match OverLength /\%81v.\+/
 
-"-------------------------------------------------------------------------------
 " For matlab
 source $VIMRUNTIME/macros/matchit.vim
-"-------------------------------------------------------------------------------
+
 "For taglist or tagbar
-map <silent> <F3> :TlistToggle<CR>
-let Tlist_Ctags_Cmd='ctags'
-let Tlist_Show_One_File=1
-let Tlist_Exit_Onlywindow=1
-let Tlist_Use_Right_Window=1
-let Tlist_File_Fold_Auto_Close=1
-let Tlist_Inc_Winwidth=0
-let Tlist_Process_File_Always=0
-set tags=tags;
 nmap <F3> :TagbarToggle<CR>
-"autocmd vimenter * Tagbar 
-"-------------------------------------------------------------------------------
-" For syntastic
-" set statusline+=%#warningmsg#
-" set statusline+=%{SyntasticStatuslineFlag()}
-" set statusline+=%*
-" 
-" let g:syntastic_always_populate_loc_list = 1
-" let g:syntastic_auto_loc_list = 1
-" let g:syntastic_check_on_open = 1
-" let g:syntastic_check_on_wq = 0
-"-------------------------------------------------------------------------------
+
 " For nerdtree
 map <silent><F8> :NERDTreeToggle<CR>
-"autocmd vimenter * NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-"-------------------------------------------------------------------------------
+
 " For tabline
 nnoremap [b :bp<CR>
 nnoremap ]b :bn<CR>
-" hi TabLineFill ctermfg=Black ctermbg=DarkGreen
-" hi TabLine ctermfg=Blue ctermbg=Black
-" hi TabLineSel ctermfg=Red ctermbg=Black
-"-------------------------------------------------------------------------------
+
 " For airline
 let g:airline#extensions#tabline#enabled = 1
+
+" Search for the word under the cursor in all files of the same type in the current directory
+map <F4> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
+
+" For ctrlp.vim
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+  \ 'file': '\v\.(exe|so|dll|zip|tar|tar.gz|pyc)$',
+  \ }
+
+" For python
+let python_highlight_all = 1
+
+" For youcompleteme
+set completeopt-=preview
+let g:ycm_add_preview_to_completeopt = 0

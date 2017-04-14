@@ -126,40 +126,49 @@ alias vi='vim'
 alias cp='cp -v'
 eval `dircolors $HOME/.dir_colors/dircolors`
 
-# For script
+# For script, only on my own PC
 export PATH="$HOME/work/bin/:$PATH"
+
 # For python
+# On big
+# export PATH="/raid4/guod/anaconda3/bin:$PATH"
+# On my own pc
 export PATH="$HOME/anaconda3/bin:$PATH"
+
 # For matlab
 export PATH="/usr/local/MATLAB/R2015b/bin/:$PATH"
+
 # For openmpi
 export PATH="/usr/lib64/openmpi/bin/:$PATH"
 #export LD_LIBRARY_PATH=""
-# For my python module
+
+# For my python module and for youcompleteme
 export PYTHONPATH="$HOME/work/python/:$PYTHONPATH"
+export PYTHONPATH="$HOME/anaconda3/lib/python3.5/site-packages/:$PYTHONPATH"
+
 # For my datapath
+# On my own PC
 export DATAPATH="$HOME/data/"
-
-
-
-
+# On big
+# export DATAPATH="/raid4/guod/data"
 
 # For IDL
+# On my own PC
+export IDL_PATH=$IDL_PATH:+"$HOME/work/idl/"
 export IDL_EXTRAS=$HOME/work/idl/extras/
 export IDL_STARTUP=$HOME/work/idl/ridley/startup
-
-
-
-
-
-
-
+# On big.engin.umich.edu
+# export IDL_PATH=$IDL_PATH:+"/raid3/idl/"
+# export IDL_EXTRAS=/raid3/idl/extras/
+# export IDL_STARTUP=/raid3/idl/ridley/startup
 
 # Mount big to butch
 if [ ! -d /home/guod/big/home ]; then 
     sshfs -o nonempty big.engin.umich.edu:/ ~/big
 fi
 
-
 # For gsview
 export PATH="$HOME/gsview/:$PATH"
+
+# for tmux italics
+export TERM=xterm-256color-italic
