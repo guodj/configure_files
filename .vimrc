@@ -18,7 +18,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'majutsushi/tagbar'
 
 " Perform all your vim insert mode completions easily 
-" Plugin 'ervandew/supertab'
+Plugin 'ervandew/supertab'
 
 " A tree explorer plugin for vim
 Plugin 'scrooloose/nerdtree'
@@ -30,7 +30,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
 
 " CODE-COMPLETION ENGINE FOR VIM
-Plugin 'valloric/youcompleteme'
+" Plugin 'valloric/youcompleteme'
 
 " Fuzzy file, buffer, mru, tag, etc finder
 Plugin 'kien/ctrlp.vim'
@@ -177,7 +177,7 @@ set tm=500
 syntax enable
 syntax on
 
-set background=dark
+set background=light
 colorscheme  solarized
 " colorscheme  desert
 
@@ -447,12 +447,13 @@ function! <SID>BufcloseCloseIt()
    endif
 endfunction
 
-"-------------------------------------------------------------------------------
+"------------------------------------------------------------------------------
 " By Dongjie, USTC, Sun Sep 18 04:51:00 CST 2016
 set nu
 set fileencodings=ucs-bom,utf-8,gb2312
 set showcmd
 inoremap <C-u> <esc>gUiwea
+set t_Co=256
 
 " comment italic
 set t_ZH=[3m
@@ -460,8 +461,7 @@ set t_ZR=[23m
 highlight Comment cterm=italic
 
 set mouse=a
-"highlight OverLength ctermbg=gray  ctermfg=white guibg=#592929
-"match OverLength /\%81v.\+/
+set colorcolumn=80
 
 " For matlab
 source $VIMRUNTIME/macros/matchit.vim
@@ -480,7 +480,8 @@ nnoremap ]b :bn<CR>
 " For airline
 let g:airline#extensions#tabline#enabled = 1
 
-" Search for the word under the cursor in all files of the same type in the current directory
+" Search for the word under the cursor in all files of the same type in the 
+" current directory
 map <F4> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
 
 " For ctrlp.vim
@@ -497,3 +498,12 @@ let python_highlight_all = 1
 " For youcompleteme
 set completeopt-=preview
 let g:ycm_add_preview_to_completeopt = 0
+
+" foldmethod    
+" set foldmethod=indent
+" inoremap <F9> <C-O>zA
+" nnoremap <F9> zA
+" onoremap <F9> <C-C>zA
+" vnoremap <F9> zf
+" au BufWinLeave * mkview
+" au BufWinEnter * silent loadview
