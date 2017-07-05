@@ -177,7 +177,7 @@ set tm=500
 syntax enable
 syntax on
 
-set background=light
+set background=dark
 colorscheme  solarized
 " colorscheme  desert
 
@@ -456,9 +456,9 @@ inoremap <C-u> <esc>gUiwea
 set t_Co=256
 
 " comment italic
-set t_ZH=[3m
-set t_ZR=[23m
-highlight Comment cterm=italic
+" set t_ZH=[3m
+" set t_ZR=[23m
+" highlight Comment cterm=italic
 
 set mouse=a
 set colorcolumn=80

@@ -124,7 +124,7 @@ fi
 
 alias vi='vim'
 alias cp='cp -v'
-eval `dircolors $HOME/.dir_colors/dircolors`
+export PS1='\u@\h:\w\$ '
 
 # For script, only on my own PC
 export PATH="$HOME/work/bin/:$PATH"
@@ -169,6 +169,3 @@ fi
 
 # For gsview
 export PATH="$HOME/gsview/:$PATH"
-
-# for tmux italics
-export TERM=xterm-256color-italic
