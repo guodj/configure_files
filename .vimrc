@@ -32,6 +32,9 @@ Plugin 'bling/vim-airline'
 " CODE-COMPLETION ENGINE FOR VIM
 " Plugin 'valloric/youcompleteme'
 
+" Git wrapper
+Plugin 'tpope/vim-fugitive'
+
 " Fuzzy file, buffer, mru, tag, etc finder
 Plugin 'kien/ctrlp.vim'
 
@@ -177,9 +180,8 @@ set tm=500
 syntax enable
 syntax on
 
-set background=dark
+set background=light
 colorscheme  solarized
-" colorscheme  desert
 
 " Set extra options when running in GUI mode
 if has("gui_running")
