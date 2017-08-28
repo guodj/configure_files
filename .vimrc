@@ -456,6 +456,10 @@ set fileencodings=ucs-bom,utf-8,gb2312
 set showcmd
 inoremap <C-u> <esc>gUiwea
 set t_Co=256
+if exists('$TMUX')
+    let g:solarized_termcolors=256
+    set term=screen-256color
+endif
 
 " comment italic
 " set t_ZH=[3m
@@ -498,8 +502,8 @@ let g:ctrlp_custom_ignore = {
 let python_highlight_all = 1
 
 " For youcompleteme
-set completeopt-=preview
-let g:ycm_add_preview_to_completeopt = 0
+" set completeopt-=preview
+" let g:ycm_add_preview_to_completeopt = 0
 
 " foldmethod    
 " set foldmethod=indent

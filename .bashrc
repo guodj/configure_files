@@ -163,9 +163,10 @@ export IDL_STARTUP=$HOME/work/idl/ridley/startup
 # export IDL_STARTUP=/raid3/idl/ridley/startup
 
 # Mount big to butch
-if [ ! -d /home/guod/big/home ]; then 
-    sshfs -o nonempty big.engin.umich.edu:/ ~/big
-fi
+# if [ ! -d /home/guod/big/home ]; then 
+#     sshfs -o nonempty big.engin.umich.edu:/ ~/big
+# fi
 
 # For gsview
 export PATH="$HOME/gsview/:$PATH"
+
