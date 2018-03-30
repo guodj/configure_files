@@ -140,7 +140,7 @@ export PATH="/usr/local/MATLAB/R2015b/bin/:$PATH"
 
 # For openmpi
 export PATH="/usr/lib64/openmpi/bin/:$PATH"
-#export LD_LIBRARY_PATH=""
+# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"/home/guod/GITM/gitm_momentum_analysis/srcGlow/"
 
 # For my python module and for youcompleteme
 export PYTHONPATH="$HOME/work/python/:$PYTHONPATH"
@@ -154,7 +154,7 @@ export DATAPATH="$HOME/data/"
 
 # For IDL
 # On my own PC
-export IDL_PATH=$IDL_PATH:+"$HOME/work/idl/"
+export IDL_PATH=$IDL_PATH:+"$HOME/work/idl/ridley/"
 export IDL_EXTRAS=$HOME/work/idl/extras/
 export IDL_STARTUP=$HOME/work/idl/ridley/startup
 # On big.engin.umich.edu
@@ -170,3 +170,7 @@ export IDL_STARTUP=$HOME/work/idl/ridley/startup
 # For gsview
 export PATH="$HOME/gsview/:$PATH"
 
+#cvs
+export CVSROOT=guod@herot.engin.umich.edu:/CVS/FRAMEWORK
+export CVS_RSH=ssh
+export EDITOR='vi'
