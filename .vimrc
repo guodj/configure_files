@@ -1,4 +1,6 @@
-"---------------------------------Vundle---------------------------------------
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vundle
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set nocompatible              " be iMproved, required
 filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -17,7 +19,7 @@ filetype plugin indent on    " required
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set history=700
-set autoread
+set autoread " read change from outside
 let mapleader = ","
 let g:mapleader = ","
 nmap <leader>w :w!<cr>
@@ -27,7 +29,7 @@ nmap <leader>q :q<cr>
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set so=7
-set wildmenu
+set wildmenu "command line completion
 set wildignore=*.o,*~,*.pyc
 set cmdheight=2
 set hid
