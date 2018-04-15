@@ -174,3 +174,8 @@ export PATH="$HOME/gsview/:$PATH"
 export CVSROOT=guod@herot.engin.umich.edu:/CVS/FRAMEWORK
 export CVS_RSH=ssh
 export EDITOR='vi'
+
+#autojump
+[[ -s /home/guod/.autojump/etc/profile.d/autojump.sh ]] && source /home/guod/.autojump/etc/profile.d/autojump.sh
+
+alias  xopen='xdg-open'
