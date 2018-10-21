@@ -226,6 +226,7 @@ endfunction
 set fileencodings=ucs-bom,utf-8,gb2312
 set showcmd
 inoremap <C-u> <esc>gUiwea
+inoremap jj <ESC>
 set t_Co=256
 if exists('$TMUX')
     let g:solarized_termcolors=256
